@@ -7,38 +7,51 @@
   font-family: Roboto;
   src: url(../fonts/Roboto-Bold.ttf);
 }
+
 @font-face {
   font-weight: 400;
   font-family: Roboto;
   src: url(../fonts/Roboto-Regular.ttf);
 }
+
 body {
   box-sizing: border-box;
   margin: auto;
+
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400px;
   line-height: 1.5;
+
   background-color: red;
-  color: #ffffff;
+  color: $white;
 }
 
-.h3, .h2, .h1 {
+%h-element {
   font-weight: bold;
   text-transform: uppercase;
 }
 
+.container {
+  margin: auto;
+  text-align: center;
+  max-width: 1200px;
+}
+
 .h1 {
+  @extend %h-element;
   font-size: 60px;
   line-height: 90px;
 }
 
 .h2 {
+  @extend %h-element;
   font-size: 38px;
   line-height: 57px;
 }
 
 .h3 {
+  @extend %h-element;
   font-size: 18px;
   line-height: 27px;
 }
@@ -46,25 +59,25 @@ body {
 .flex-grow-1 {
   flex-grow: 1;
 }
-
 .flex-grow-2 {
   flex-grow: 2;
 }
 
 .sr-only {
   position: absolute;
+
   width: 1px;
   height: 1px;
   padding: 0;
   border: 0;
   overflow: hidden;
+
   white-space: nowrap;
 }
 
 .mr-12px {
   margin-right: 12px;
 }
-
 .ml-12px {
   margin-left: 12px;
 }
@@ -75,11 +88,13 @@ body {
 
 @media (max-width: 414px) {
   .h1 {
+    @extend %h-element;
     font-size: 30px;
     line-height: 45px;
   }
 
   .h2 {
+    @extend %h-element;
     font-size: 18px;
     line-height: 27px;
   }
@@ -87,49 +102,7 @@ body {
   .container {
     padding: 20px;
   }
-
   .mr-1-5rem {
     margin-right: 0;
   }
 }
-#page-description {
-  background-color: #08020d;
-  background-image: url(../images/banner.png);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  margin: auto;
-  padding: 200px 0px;
-}
-#page-description form {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 570px;
-  margin: auto;
-}
-#page-description form > input,
-#page-description button {
-  min-width: 270px;
-  min-height: 50px;
-  padding-left: 20px;
-  margin-bottom: 1.5rem;
-  border: 2px #cacaca solid;
-  border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0);
-  color: #ffffff;
-}
-#page-description form > button {
-  background-color: #34c176;
-  color: #ffffff;
-  border-radius: 5px;
-  padding: 20px 30px;
-  text-transform: uppercase;
-}
-
-.container {
-  margin: auto;
-  text-align: center;
-  max-width: 1200px;
-}
-
-/*# sourceMappingURL=style.css.map */

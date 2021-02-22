@@ -7,8 +7,6 @@
   background-position: center;
   background-size: cover;
 
-  position: relative;
-  margin: auto;
   padding: 200px 0px;
 
   form {
@@ -39,4 +37,37 @@
   }
 }
 
+#page-pricing {
+  background-color: $bg-black;
+  padding-top: 100px;
+}
 
+.pricing-item {
+  //   background-color: yellowgreen;
+  width: 367px;
+  height: 619px;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 39px;
+
+  .h3 {
+    margin-bottom: 200px;
+    font-weight: 400;
+  }
+  .pricing-value {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+  .text-size-3 {
+    padding: 16px;
+  }
+  .btn {
+    margin-bottom: 64px;
+    width: 320px;
+  }
+  .pricing-footer {
+    margin: 0;
+  }
+}

@@ -28,9 +28,11 @@ body {
   text-transform: uppercase;
 }
 
-.section {
+section {
   position: relative;
   margin: auto;
+  padding-top: 100px;
+  background-color: #08020d;
 }
 
 .container {
@@ -110,6 +112,10 @@ body {
   .pricing-item {
     margin-bottom: 54px;
   }
+
+  img {
+    max-width: 374px;
+  }
 }
 .m-0 {
   margin: 0;
@@ -186,6 +192,26 @@ body {
   justify-content: space-between;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.avatar {
+  width: 19px;
+}
+
+.text-capitalize {
+  text-transform: uppercase;
+}
+
+.orange {
+  color: #f89202;
+}
+
+.light-gray {
+  color: #cacaca;
+}
+
 #page-description {
   background-color: #08020d;
   background-image: url(../images/banner.png);
@@ -249,6 +275,49 @@ body {
 }
 .pricing-item .pricing-footer {
   margin: 0;
+}
+
+.news-item {
+  margin-top: 48px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-item > img {
+  width: 575px;
+}
+.news-item .news-author > * {
+  margin-right: 16px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.news-item .news-author {
+  margin-bottom: 48px;
+}
+.news-item .h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: unset;
+}
+.news-item > div {
+  max-width: 575px;
+  text-align: left;
+}
+.news-item > img:nth-child(odd) {
+  margin-right: 50px;
+}
+
+.news-item:nth-child(odd) {
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+@media (max-width: 414px) {
+  .news-body {
+    margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

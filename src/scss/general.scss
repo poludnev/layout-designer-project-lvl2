@@ -211,3 +211,43 @@ section {
 .light-gray {
   color: $light-grey;
 }
+
+.columns-2 {
+  column-count: 2;
+}
+
+.text-left {
+  text-align: left;
+}
+.radius-32px {
+  border-radius: 32px;
+}
+.red {
+  color: $red;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.text-small {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.mb-100px {
+  margin-bottom: 100px;
+}
+
+.mw-600px {
+  max-width: 600px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.flex-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}

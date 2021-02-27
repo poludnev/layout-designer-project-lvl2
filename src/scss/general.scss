@@ -23,7 +23,7 @@ body {
   font-weight: 400px;
   line-height: 1.5;
 
-  background-color: red;
+  background-color: $bg-black;
   color: $white;
 }
 
@@ -85,13 +85,28 @@ section {
 .mr-12px {
   margin-right: 12px;
 }
+.mr-15px {
+  margin-right: 15px;
+}
+.mr-24px {
+  margin-right: 24px;
+}
+
 .ml-12px {
   margin-left: 12px;
 }
 .mt-50px {
   margin-top: 50px;
 }
-
+.mt-40px {
+  margin-top: 40px;
+}
+.m-15px {
+  margin: 15px;
+}
+.mb-0px {
+  margin-bottom: 0px;
+}
 .mr-1-5rem {
   margin-right: 1.5rem;
 }
@@ -121,6 +136,32 @@ section {
 
   img {
     max-width: 374px;
+  }
+  #footer {
+    .container:nth-child(1) {
+      div div:last-child ul {
+        margin-bottom: 0px;
+      }
+
+      > div {
+        max-width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        ul {
+          margin-bottom: 30px;
+          // background-color: chartreuse;
+        }
+      }
+    }
+    .container:nth-child(3) {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      // background-color: brown;
+      li {
+        display: block;
+        margin-bottom: 0px;
+      }
+    }
   }
 }
 
@@ -211,13 +252,19 @@ section {
 .light-gray {
   color: $light-grey;
 }
+.gray {
+  color: $grey;
+}
 
-.columns-2 {
-  column-count: 2;
+.columns-4 {
+  column-count: 4;
 }
 
 .text-left {
   text-align: left;
+}
+.text-center {
+  text-align: center;
 }
 .radius-32px {
   border-radius: 32px;
@@ -238,6 +285,12 @@ section {
 .mb-100px {
   margin-bottom: 100px;
 }
+.mb-16px {
+  margin-bottom: 16px;
+}
+.pb-48px {
+  padding-bottom: 48px;
+}
 
 .mw-600px {
   max-width: 600px;
@@ -250,4 +303,35 @@ section {
 .flex-wrap-reverse {
   display: flex;
   flex-wrap: wrap-reverse;
+}
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.column-break-before {
+  break-before: column;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mb-74px {
+  margin-bottom: 74px;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.inline > li {
+  display: inline-block;
 }

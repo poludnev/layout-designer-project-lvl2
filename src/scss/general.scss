@@ -107,6 +107,9 @@ section {
 .mb-0px {
   margin-bottom: 0px;
 }
+.mb-48px {
+  margin-bottom: 48px;
+}
 .mr-1-5rem {
   margin-right: 1.5rem;
 }
@@ -272,9 +275,15 @@ section {
 .red {
   color: $red;
 }
+.border-0 {
+  border: 0px;
+}
 
 .bg-red {
   background-color: $red;
+}
+.bg-purple {
+  background-color: $purple;
 }
 
 .text-small {
@@ -298,6 +307,12 @@ section {
 
 .m-auto {
   margin: auto;
+}
+
+.flex-v-center {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
 }
 
 .flex-wrap-reverse {

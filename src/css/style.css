@@ -106,6 +106,10 @@ section {
   margin-bottom: 0px;
 }
 
+.mb-48px {
+  margin-bottom: 48px;
+}
+
 .mr-1-5rem {
   margin-right: 1.5rem;
 }
@@ -276,8 +280,16 @@ section {
   color: #95390c;
 }
 
+.border-0 {
+  border: 0px;
+}
+
 .bg-red {
   background-color: #95390c;
+}
+
+.bg-purple {
+  background-color: #5328a1;
 }
 
 .text-small {
@@ -303,6 +315,11 @@ section {
 
 .m-auto {
   margin: auto;
+}
+
+.flex-v-center {
+  display: flex;
+  align-items: center;
 }
 
 .flex-wrap-reverse {
@@ -368,6 +385,46 @@ hr {
   color: #ffffff;
 }
 #page-description form > button {
+  background-color: #34c176;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 30px;
+  text-transform: uppercase;
+}
+
+#page-description-artist {
+  background-color: #08020d;
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0px;
+}
+#page-description-artist .container {
+  text-align: left;
+}
+#page-description-artist form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 570px;
+  margin: auto;
+}
+#page-description-artist form > input,
+#page-description-artist button {
+  min-width: 200px;
+  min-height: 50px;
+  padding-left: 31px;
+  margin-bottom: 1.5rem;
+  margin-right: 24px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+#page-description-artist form > input img,
+#page-description-artist button img {
+  margin-right: 16px;
+  width: 20px;
+  filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg) brightness(106%) contrast(99%);
+}
+#page-description-artist form > button {
   background-color: #34c176;
   color: #ffffff;
   border-radius: 5px;

@@ -98,6 +98,9 @@ section {
 .mt-50px {
   margin-top: 50px;
 }
+.mt-48px {
+  margin-top: 48px;
+}
 .mt-40px {
   margin-top: 40px;
 }
@@ -166,6 +169,13 @@ section {
       }
     }
   }
+  .disk-item {
+    max-width: 137px;
+    img {
+      max-width: 137px;
+    }
+  }
+  
 }
 
 .m-0 {
@@ -242,12 +252,19 @@ section {
 .d-flex {
   display: flex;
 }
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 .avatar {
   width: 19px;
 }
 
 .text-capitalize {
   text-transform: uppercase;
+}
+.text-bold {
+  font-weight: bold;
 }
 .orange {
   color: $orange;
@@ -349,4 +366,10 @@ hr {
 
 .inline > li {
   display: inline-block;
+}
+
+.track-item {
+  img {
+    width: 55px;
+  }
 }

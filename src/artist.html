@@ -6,8 +6,34 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
 </head>
 <body>
+
 <section id="page-description-artist" class="page-descriptopn-artist">
+
     <div class="container">
+        <div class="header" id="header">
+            <div class="">
+                <div class="flex-v-center">
+                    <img src="images/logo.svg" alt="">
+                    <span class="text-capitalize ml-16px mr-88px">Music Box</span>
+
+                </div>
+                <div class="nav text-capitalize">
+                    <span class="gray">Главная</span>
+                    <span>Каталог</span>
+                    <span class="gray">Исполнители</span>
+                    <span class="gray">Контакты</span>
+                </div>
+            </div>
+            <div>
+                <form>
+                    <label for="search" class="sr-only">Поиск</label>
+                    <input type="text" id="search" value="ПОИСК..." class="">
+
+                </form>
+
+            </div>
+
+        </div>
         <div class="h1 text-left">Morten Harket</div>
         <div class="text-size-1 mb-48px">24 875 поклонников</div>
         <button class="btn bg-purple border-0">
@@ -19,7 +45,7 @@
             </button>
         <button class="btn bg-red border-0">
             <div class="flex-v-center">
-                <img src="images/play-button.svg">
+                <img src="images/heart.svg">
                 <span class="text-small">В избранное</span>
             </div>
         </button>
@@ -135,66 +161,120 @@
 
     </div>
 </section>
-<!-- <section id="page-similar" class="">
+<section id="page-similar" class="">
     <div class="h2 mb-48px">похожие исполнители</div>
-    <div class="d-flex">
+    <div class="flex-wrap">
         <div class="artist">
             <img src="images/A-ha.png" alt="A-Ha">
-            <div class="h3">A-Ha</div>
-            <div class="artist-fans-quantity"><p>417 086 поклонниковs</p></div>
+            <div class="h4">A-Ha</div>
+            <div class="artist-fans-quantity text-size-1 text-center"><p>417 086 поклонниковs</p></div>
         </div>
         <div class="artist">
             <img src="images/Tears for Fears.png" alt="Tears For Fears">
-            <div class="h3">Tears For Fears</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Tears For Fears</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>434 086 поклонников</p>
             </div>
         </div>
         <div class="artist">
             <img src="images/Duran Duran.png" alt="Duran Duran">
-            <div class="h3">Duran Duran</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Duran Duran</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>631 071 поклонник</p>
             </div>
         </div>
-
         <div class="artist">
             <img src="images/Jack Savoretti.png" alt="Jack Savoretti">
-            <div class="h3">Jack Savoretti</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Jack Savoretti</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>26 857 поклонников</p>
             </div>
         </div>
         <div class="artist">
             <img src="images/Keane.png" alt="Keane">
-            <div class="h3">Keane</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Keane</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>1 704 358 поклонников</p>
             </div>
         </div>
         <div class="artist">
             <img src="images/Frank Sinatra.png" alt="Frank Sinatra">
-            <div class="h3">Frank Sinatra</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Frank Sinatra</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>1 653 882 поклонников</p>
             </div>
         </div>
         <div class="artist">
             <img src="images/Paul Young.png" alt="Paul Young">
-            <div class="h3">Paul Young</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Paul Young</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>50 329 поклонников</p>
             </div>
         </div>
         <div class="artist">
             <img src="images/Chris Rea.png" alt="Chris Rea">
-            <div class="h3">Chris Rea</div>
-            <div class="artist-fans-quantity">
+            <div class="h4">Chris Rea</div>
+            <div class="artist-fans-quantity text-size-1 text-center">
                 <p>73 351 поклонников</p>
             </div>
         </div>
 
     </div>
-</section> -->
+</section>
+<section id="footer" class="bg-gradient">
+    <div class="container mb-74px">
+        <div class="columns-4">
+            <div>
+                <div class="h4 text-capitalize text-left column-break-before mb-16px">О нас</div>
+                <ul class="text-left">
+                    <li class="text-size-1">История компании</li>
+                    <li class="text-size-1">Карьера</li>
+                    <li class="text-size-1">Особенности</li>
+                    <li class="text-size-1">Пресса</li>
+                </ul>
+            </div>
+            <div>
+                <div class="h4 text-capitalize text-left column-break-before mb-16px">Поддержка</div>
+                <ul class="text-left">
+                    <li class="text-size-1">База знаний</li>
+                    <li class="text-size-1">Тарифы</li>
+                    <li class="text-size-1">Мобильное приложение</li>
+                    <li class="text-size-1">Условия использования</li>
+                </ul>
+            </div>
+            <div>
+                <div class="h4 text-capitalize text-left column-break-before mb-16px">Контакты</div>
+                <ul class="text-left">
+                    <li class="text-size-1">hello@music.box</li>
+                    <li class="text-size-1">Russia, Moscow. Music Box studio</li>
+                    <li class="text-size-1">+ 7 499 999 99 99</li>
+
+                </ul>
+            </div>
+            <div>
+                <div class="h4 text-capitalize text-left column-break-before mb-16px">Подписывайтесь</div>
+                <ul class="text-left inline">
+                    <li class="text-size-1 mr-24px"><img src="images/Google+.png"></li>
+                    <li class="text-size-1 mr-24px"><img src="images/Twitter.png"></li>
+                    <li class="text-size-1 mr-24px"><img src="images/Facebook.png"></li>
+                    <li class="text-size-1 mr-24px"><img src="images/Instagram.png"></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="container text-left mt-40px pb-48px">
+        <ul class="inline">
+            <li class="text-size-1 gray m-15px">Магазин</li>
+            <li class="text-size-1 gray m-15px">Обслуживание</li>
+            <li class="text-size-1 gray m-15px">Блог</li>
+            <li class="text-size-1 gray m-15px">Поддержка</li>
+            <li class="text-size-1 gray m-15px">Контакты</li>
+        </ul>
+    </div>
+
+</section>
 </body>
 </html>

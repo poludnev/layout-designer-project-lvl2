@@ -82,8 +82,20 @@ section {
   margin-right: 15px;
 }
 
+.mr-16px {
+  margin-right: 16px;
+}
+
+.ml-16px {
+  margin-left: 16px;
+}
+
 .mr-24px {
   margin-right: 24px;
+}
+
+.mr-88px {
+  margin-right: 88px;
 }
 
 .ml-12px {
@@ -400,7 +412,7 @@ hr {
 #page-description form > input,
 #page-description button {
   min-width: 270px;
-  min-height: 50px;
+  height: 50px;
   padding-left: 20px;
   margin-bottom: 1.5rem;
   border: 2px #cacaca solid;
@@ -414,6 +426,21 @@ hr {
   border-radius: 5px;
   padding: 20px 30px;
   text-transform: uppercase;
+}
+
+#page-similar {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+#page-similar .artist {
+  text-align: center;
+  margin: 0px 50px 25px 0px;
+}
+#page-similar .artist img {
+  width: 250px;
 }
 
 #page-description-artist {
@@ -435,7 +462,6 @@ hr {
 #page-description-artist form > input,
 #page-description-artist button {
   min-width: 200px;
-  min-height: 50px;
   padding-left: 31px;
   margin-bottom: 1.5rem;
   margin-right: 24px;
@@ -581,6 +607,48 @@ hr {
   text-align: left;
 }
 
+#header {
+  font-size: 11px;
+  line-height: 12.89px;
+  width: 100%;
+  max-width: 1200px;
+  position: absolute;
+  top: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header img {
+  width: 25px;
+}
+#header > div {
+  display: flex;
+  align-items: center;
+}
+#header .nav > span {
+  margin-right: 24px;
+}
+#header form {
+  border: 0 solid #3c3b3d;
+  margin: 0;
+  padding: 0;
+  max-height: 25px;
+  height: 25px;
+}
+#header form #search {
+  margin: 0px;
+  padding: 5px 10px;
+  background-color: #3c3b3d;
+  color: #757575;
+  max-height: 25px;
+  height: 25px;
+  min-width: 248px;
+  border-radius: 50px;
+  box-shadow: none;
+  border: 0 solid;
+}
+
 @media (max-width: 414px) {
   .news-body {
     margin-top: 50px;
@@ -588,6 +656,58 @@ hr {
 
   .track-item {
     margin-right: 0px;
+  }
+
+  #header {
+    flex-direction: column;
+    max-width: calc(100% - 20px * 2);
+    align-items: flex-start;
+  }
+  #header > div {
+    display: block;
+    width: 100%;
+  }
+  #header .nav {
+    margin-top: 17px;
+    margin-bottom: 18px;
+  }
+  #header .nav span {
+    display: block;
+    margin-bottom: 3px;
+  }
+  #header form {
+    min-width: calc(100% - 20px);
+  }
+  #header form input {
+    width: 100%;
+  }
+
+  #page-description-artist {
+    padding-top: 205px;
+    padding-bottom: 180px;
+  }
+
+  #page-similar {
+    padding-left: 20px;
+  }
+  #page-similar .artist {
+    width: 137px;
+    margin: 0px 50px 25px 0px;
+  }
+  #page-similar .artist img {
+    width: 137px;
+  }
+
+  .h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+  }
+
+  .h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
   }
 }
 

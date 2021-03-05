@@ -20,7 +20,7 @@
   form > input,
   button {
     min-width: 270px;
-    min-height: 50px;
+    height: 50px;
     padding-left: 20px;
     margin-bottom: 1.5rem;
     border: 2px $light-grey solid;
@@ -34,6 +34,26 @@
     border-radius: 5px;
     padding: 20px 30px;
     text-transform: uppercase;
+  }
+}
+
+#page-similar {
+  position: relative;
+
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+  .artist {
+    // background-color: brown;
+
+    // width: 250px;
+    text-align: center;
+    margin: 0px 50px 25px 0px;
+    img {
+      width: 250px;
+    }
   }
 }
 
@@ -60,7 +80,7 @@
   form > input,
   button {
     min-width: 200px;
-    min-height: 50px;
+    // min-height: 50px;
     padding-left: 31px;
     margin-bottom: 1.5rem;
     // margin-top: 24px;
@@ -215,11 +235,122 @@ hr {
   }
 }
 
+#header {
+  font-size: 11px;
+  line-height: 12.89px;
+  width: 100%;
+  max-width: 1200px;
+  position: absolute;
+  top: 25px;
+  // margin-top: 25px;
+  padding: 0;
+  img {
+    width: 25px;
+  }
+  > div {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .nav > span {
+    margin-right: 24px;
+  }
+  form {
+    border: 0 solid $dark;
+    margin: 0;
+    padding: 0;
+    max-height: 25px;
+    height: 25px;
+    #search {
+      margin: 0px;
+      padding: 5px 10px;
+      background-color: $dark;
+      color: #757575;
+      max-height: 25px;
+      height: 25px;
+      min-width: 248px;
+      border-radius: 50px;
+      box-shadow: none;
+      border: 0 solid;
+    }
+  }
+}
+
+// #search {
+//   max-height: 25px;
+//   background-color: red;
+// }
+
 @media (max-width: 414px) {
   .news-body {
     margin-top: 50px;
   }
   .track-item {
     margin-right: 0px;
+  }
+  #header {
+    // flex-wrap: wrap;
+    flex-direction: column;
+    max-width: calc(100% - 20px * 2);
+    // justify-content: start;
+    align-items: flex-start;
+    > div {
+      // flex-wrap: wrap;
+      display: block;
+      width: 100%;
+    }
+
+    .nav {
+      margin-top: 17px;
+      span {
+        display: block;
+        margin-bottom: 3px;
+      }
+      margin-bottom: 18px;
+    }
+    form {
+      min-width: calc(100% - 20px);
+      input {
+        width: 100%;
+      }
+    }
+  }
+  #page-description-artist {
+    padding-top: 205px;
+    padding-bottom: 180px;
+  }
+  #page-similar {
+    // position: relative;
+
+    // max-width: 1200px;
+    // margin: auto;
+    // padding-top: 100px;
+    // margin-bottom: 100px;
+    padding-left: 20px;
+
+    .artist {
+      // background-color: brown;
+      img {
+        width: 137px;
+      }
+
+      // text-align: center;
+      width: 137px;
+      margin: 0px 50px 25px 0px;
+    }
+  }
+  .h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+  }
+
+  .h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
   }
 }

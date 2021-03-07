@@ -242,6 +242,10 @@ h2 {
   letter-spacing: 0em;
   text-align: center;
 }
+
+input {
+  border: 2px $light-grey solid;
+}
 .btn {
   border: 2px $light-grey solid;
   border-radius: 3px;

@@ -241,6 +241,10 @@ h2 {
   text-align: center;
 }
 
+input {
+  border: 2px #cacaca solid;
+}
+
 .btn {
   border: 2px #cacaca solid;
   border-radius: 3px;

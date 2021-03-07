@@ -56,12 +56,14 @@ section {
 h1 {
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0px;
   font-size: 60px;
   line-height: 90px;
 }
 
 .h2 {
   @extend %h-element;
+  margin: 0px;
   font-size: 38px;
   line-height: 57px;
 }
@@ -69,6 +71,7 @@ h1 {
 h2 {
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0px;
   font-size: 38px;
   line-height: 57px;
 }

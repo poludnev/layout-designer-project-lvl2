@@ -49,11 +49,13 @@ section {
 h1 {
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0px;
   font-size: 60px;
   line-height: 90px;
 }
 
 .h2 {
+  margin: 0px;
   font-size: 38px;
   line-height: 57px;
 }
@@ -61,6 +63,7 @@ h1 {
 h2 {
   font-weight: bold;
   text-transform: uppercase;
+  margin: 0px;
   font-size: 38px;
   line-height: 57px;
 }
@@ -415,7 +418,7 @@ hr {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  padding: 220px 0px;
+  padding: 200px 0px;
 }
 #page-description form {
   display: flex;

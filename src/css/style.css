@@ -423,7 +423,7 @@ hr {
 #page-description form {
   display: flex;
   flex-wrap: wrap;
-  max-width: 570px;
+  width: 570px;
   margin: auto;
 }
 #page-description form > input,

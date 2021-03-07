@@ -23,7 +23,9 @@
     height: 50px;
     padding-left: 20px;
     margin-bottom: 1.5rem;
-    border: 2px $light-grey solid;
+    // border: 2px $light-grey solid;
+    border-color: $light-grey;
+
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0);
     color: $white;

@@ -32,6 +32,10 @@ body {
   text-transform: uppercase;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
 section {
   position: relative;
   margin: auto;

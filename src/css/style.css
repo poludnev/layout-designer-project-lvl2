@@ -46,12 +46,21 @@ section {
   max-width: 1200px;
 }
 
-.h1 {
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 60px;
   line-height: 90px;
 }
 
 .h2 {
+  font-size: 38px;
+  line-height: 57px;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 38px;
   line-height: 57px;
 }

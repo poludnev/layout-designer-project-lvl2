@@ -92,6 +92,9 @@ header {
 }
 
 #page-pricing {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
   .pricing-items {
     flex-wrap: wrap;
     .pricing-item {

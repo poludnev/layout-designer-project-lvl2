@@ -86,6 +86,7 @@ h3 {
 }
 
 .btn {
+  display: block;
   height: 66px;
   width: 100%;
   border-radius: 5px;
@@ -272,6 +273,11 @@ header input {
   text-transform: uppercase;
 }
 
+#page-pricing {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+}
 #page-pricing .pricing-items {
   flex-wrap: wrap;
 }

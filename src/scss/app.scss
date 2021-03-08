@@ -61,8 +61,11 @@ header {
   form {
     // display: flex;
     // flex-wrap: wrap;
-    // width: 570px;
-    // margin: auto;
+    width: 570px;
+    margin: auto;
+    input {
+      border-radius: 3px;
+    }
   }
 
   form input,

@@ -147,6 +147,13 @@ header input {
   background-size: cover;
   padding: 200px 0px;
 }
+#page-description form {
+  width: 570px;
+  margin: auto;
+}
+#page-description form input {
+  border-radius: 3px;
+}
 @media (max-width: 414px) {
   header .container {
     display: block;

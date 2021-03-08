@@ -56,7 +56,6 @@ section {
 
 .flex-vertical-center {
   display: flex;
-  align-items: center;
 }
 
 .flex-between {
@@ -354,7 +353,7 @@ header input {
   header .container .nav-bar ul li {
     display: block;
     margin-left: 0;
-    margin-bottom: 3px;
+    margin-bottom: 0;
   }
 
   #page-description .container {

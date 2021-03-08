@@ -278,19 +278,19 @@ header input {
   width: 370px;
   border-radius: 1rem;
   padding: 22px 1.5rem 66px;
-  margin-bottom: 50px;
+  margin-bottom: 38px;
 }
 #page-pricing .pricing-items .pricing-item h3 {
   margin-bottom: 200px;
 }
 #page-pricing .pricing-items .pricing-item .btn {
-  margin: 24px 0 64px;
+  margin: 0px 0 64px;
 }
 #page-pricing .pricing-items .pricing-item .pricing-value {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 
 .news-item {

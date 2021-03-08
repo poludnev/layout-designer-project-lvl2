@@ -222,7 +222,6 @@ header ul li {
   display: inline;
   margin-left: 24px;
   color: #cacaca;
-  padding-bottom: 3px;
 }
 header ul li.active {
   color: #ffffff;

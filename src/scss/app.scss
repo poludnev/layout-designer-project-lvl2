@@ -1,18 +1,63 @@
 @import 'variables.scss';
 @import 'general.scss';
+@import 'margins.scss';
+@import 'text.scss';
+
+header {
+  font-size: 11px;
+  line-height: 12.89px;
+  text-transform: uppercase;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+  top: 25px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .nav-bar {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .logo {
+    width: 25px;
+    margin-right: 16px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 88px;
+
+    li {
+      display: inline;
+      margin-left: 24px;
+      color: $light-gray;
+    }
+  }
+
+  input {
+    padding: 5px 10px;
+    background-color: $dark;
+    color: #757575;
+    height: 25px;
+    min-width: 248px;
+    border-radius: 50px;
+    border: 0 solid;
+  }
+}
 
 #page-description {
   background-color: $bg-black;
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-
   padding: 200px 0px;
 
   form {
     display: flex;
     flex-wrap: wrap;
-    // background-color: blueviolet;
     width: 570px;
     margin: auto;
   }
@@ -41,321 +86,305 @@
   }
 }
 
-#page-similar {
-  position: relative;
+// #page-similar {
+//   position: relative;
 
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 100px;
-  margin-bottom: 100px;
+//   max-width: 1200px;
+//   margin: auto;
+//   padding-top: 100px;
+//   margin-bottom: 100px;
 
-  .artist {
-    // background-color: brown;
+//   .artist {
+//     // background-color: brown;
 
-    // width: 250px;
-    text-align: center;
-    margin: 0px 50px 25px 0px;
-    img {
-      width: 250px;
-    }
-  }
-}
-
-#page-description-artist {
-  background-color: $bg-black;
-  background-image: url('../images/Morten\ Harket.png');
-  background-position: center;
-  background-size: cover;
-
-  padding: 250px 0px;
-
-  .container {
-    text-align: left;
-  }
-
-  form {
-    display: flex;
-    flex-wrap: wrap;
-    // background-color: blueviolet;
-    max-width: 570px;
-    margin: auto;
-  }
-
-  form > input,
-  button {
-    border-left-width: 2px;
-    min-width: 200px;
-    // min-height: 50px;
-    padding-left: 31px;
-    margin-bottom: 1.5rem;
-    // margin-top: 24px;
-    margin-right: 24px;
-    // border: 2px $light-grey solid;
-    border-radius: 3px;
-    // background-color: rgba(255, 255, 255, 0);
-    color: $white;
-    img {
-      margin-right: 16px;
-      width: 20px;
-      filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
-        brightness(106%) contrast(99%);
-    }
-  }
-  form > button {
-    background-color: $green;
-    color: $white;
-    border-radius: 5px;
-    padding: 20px 30px;
-    text-transform: uppercase;
-  }
-}
-
-#page-pricing {
-  background-color: $bg-black;
-  padding-top: 100px;
-}
-
-.pricing-item {
-  //   background-color: yellowgreen;
-  width: 367px;
-  height: 619px;
-  border-radius: 1rem;
-  padding: 1.5rem;
-  margin-bottom: 39px;
-
-  .h3 {
-    margin-bottom: 200px;
-    font-weight: 400;
-  }
-  .pricing-value {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 24px;
-  }
-  .text-size-3 {
-    padding: 16px;
-  }
-  .btn {
-    margin-bottom: 64px;
-    width: 320px;
-  }
-  .pricing-footer {
-    margin: 0;
-  }
-}
-
-.news-item {
-  margin-top: 65px;
-  display: flex;
-  flex-wrap: wrap;
-  > img {
-    width: 575px;
-  }
-
-  .news-author > * {
-    margin-right: 16px;
-    font-size: 12.8px;
-    line-height: 19.2px;
-  }
-  .news-author {
-    margin-bottom: 48px;
-  }
-
-  .h3 {
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 400;
-    color: $white;
-    text-transform: unset;
-  }
-  > div {
-    max-width: 575px;
-    text-align: left;
-  }
-
-  > img:nth-child(odd) {
-    margin-right: 50px;
-  }
-}
-.news-item:nth-child(odd) {
-  flex-wrap: wrap-reverse;
-  justify-content: space-between;
-}
-
-.news-item:nth-child(2) {
-  margin-top: 48px;
-}
-
-#page-app {
-  .btn {
-    border: 1px solid $red;
-    width: 131px;
-    height: 53px;
-    padding: 17px 40px;
-    text-transform: unset;
-  }
-  .h2 {
-    margin-bottom: 48px;
-  }
-}
-
-#footer {
-  padding-top: 61px;
-  ul {
-    color: $grey;
-  }
-}
-hr {
-  border: 1px solid $grey;
-}
-
-.disk-item {
-  img {
-    margin-bottom: 18px;
-  }
-  margin-right: 50px;
-  margin-bottom: 25px;
-}
-
-.track-items {
-  display: flex;
-  flex-wrap: wrap;
-}
-.track-item {
-  margin-bottom: 25px;
-  margin-right: 50px;
-  // background-color: salmon;
-  flex-grow: 1;
-  flex-basis: 400px;
-  display: flex;
-  justify-content: space-between;
-  img {
-    margin-right: 15px;
-  }
-  > div {
-    display: flex;
-    align-items: center;
-    text-align: left;
-  }
-}
-
-#header {
-  font-size: 11px;
-  line-height: 12.89px;
-  width: 100%;
-  max-width: 1200px;
-  position: absolute;
-  top: 25px;
-  // margin-top: 25px;
-  padding: 0;
-  img {
-    width: 25px;
-  }
-  > div {
-    display: flex;
-    // justify-content: space-between;
-    align-items: center;
-  }
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .nav > span {
-    margin-right: 24px;
-  }
-  form {
-    border: 0 solid $dark;
-    margin: 0;
-    padding: 0;
-    max-height: 25px;
-    height: 25px;
-    #search {
-      margin: 0px;
-      padding: 5px 10px;
-      background-color: $dark;
-      color: #757575;
-      max-height: 25px;
-      height: 25px;
-      min-width: 248px;
-      border-radius: 50px;
-      box-shadow: none;
-      border: 0 solid;
-    }
-  }
-}
-
-// #search {
-//   max-height: 25px;
-//   background-color: red;
+//     // width: 250px;
+//     text-align: center;
+//     margin: 0px 50px 25px 0px;
+//     img {
+//       width: 250px;
+//     }
+//   }
 // }
 
-@media (max-width: 414px) {
-  .news-body {
-    margin-top: 50px;
-  }
-  .track-item {
-    margin-right: 0px;
-  }
-  #header {
-    // flex-wrap: wrap;
-    flex-direction: column;
-    max-width: calc(100% - 20px * 2);
-    // justify-content: start;
-    align-items: flex-start;
-    > div {
-      // flex-wrap: wrap;
-      display: block;
-      width: 100%;
-    }
+// #page-description-artist {
+//   background-color: $bg-black;
+//   background-image: url('../images/Morten\ Harket.png');
+//   background-position: center;
+//   background-size: cover;
 
-    .nav {
-      margin-top: 17px;
-      span {
-        display: block;
-        margin-bottom: 3px;
-      }
-      margin-bottom: 18px;
-    }
-    form {
-      min-width: calc(100% - 20px);
+//   padding: 250px 0px;
+
+//   .container {
+//     text-align: left;
+//   }
+
+//   form {
+//     display: flex;
+//     flex-wrap: wrap;
+//     // background-color: blueviolet;
+//     max-width: 570px;
+//     margin: auto;
+//   }
+
+//   form > input,
+//   button {
+//     border-left-width: 2px;
+//     min-width: 200px;
+//     // min-height: 50px;
+//     padding-left: 31px;
+//     margin-bottom: 1.5rem;
+//     // margin-top: 24px;
+//     margin-right: 24px;
+//     // border: 2px $light-grey solid;
+//     border-radius: 3px;
+//     // background-color: rgba(255, 255, 255, 0);
+//     color: $white;
+//     img {
+//       margin-right: 16px;
+//       width: 20px;
+//       filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
+//         brightness(106%) contrast(99%);
+//     }
+//   }
+//   form > button {
+//     background-color: $green;
+//     color: $white;
+//     border-radius: 5px;
+//     padding: 20px 30px;
+//     text-transform: uppercase;
+//   }
+// }
+
+// #page-pricing {
+//   background-color: $bg-black;
+//   padding-top: 100px;
+// }
+
+// .pricing-item {
+//   //   background-color: yellowgreen;
+//   width: 367px;
+//   height: 619px;
+//   border-radius: 1rem;
+//   padding: 1.5rem;
+//   margin-bottom: 39px;
+
+//   .h3 {
+//     margin-bottom: 200px;
+//     font-weight: 400;
+//   }
+//   .pricing-value {
+//     display: flex;
+//     justify-content: center;
+//     align-items: flex-start;
+//     margin-bottom: 24px;
+//   }
+//   .text-size-3 {
+//     padding: 16px;
+//   }
+//   .btn {
+//     margin-bottom: 64px;
+//     width: 320px;
+//   }
+//   .pricing-footer {
+//     margin: 0;
+//   }
+// }
+
+// .news-item {
+//   margin-top: 65px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   > img {
+//     width: 575px;
+//   }
+
+//   .news-author > * {
+//     margin-right: 16px;
+//     font-size: 12.8px;
+//     line-height: 19.2px;
+//   }
+//   .news-author {
+//     margin-bottom: 48px;
+//   }
+
+//   .h3 {
+//     font-size: 30px;
+//     line-height: 45px;
+//     font-weight: 400;
+//     color: $white;
+//     text-transform: unset;
+//   }
+//   > div {
+//     max-width: 575px;
+//     text-align: left;
+//   }
+
+//   > img:nth-child(odd) {
+//     margin-right: 50px;
+//   }
+// }
+// .news-item:nth-child(odd) {
+//   flex-wrap: wrap-reverse;
+//   justify-content: space-between;
+// }
+
+// .news-item:nth-child(2) {
+//   margin-top: 48px;
+// }
+
+// #page-app {
+//   .btn {
+//     border: 1px solid $red;
+//     width: 131px;
+//     height: 53px;
+//     padding: 17px 40px;
+//     text-transform: unset;
+//   }
+//   .h2 {
+//     margin-bottom: 48px;
+//   }
+// }
+
+// #footer {
+//   padding-top: 61px;
+//   ul {
+//     color: $grey;
+//   }
+// }
+// hr {
+//   border: 1px solid $grey;
+// }
+
+// .disk-item {
+//   img {
+//     margin-bottom: 18px;
+//   }
+//   margin-right: 50px;
+//   margin-bottom: 25px;
+// }
+
+// .track-items {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+// .track-item {
+//   margin-bottom: 25px;
+//   margin-right: 50px;
+//   // background-color: salmon;
+//   flex-grow: 1;
+//   flex-basis: 400px;
+//   display: flex;
+//   justify-content: space-between;
+//   img {
+//     margin-right: 15px;
+//   }
+//   > div {
+//     display: flex;
+//     align-items: center;
+//     text-align: left;
+//   }
+// }
+
+// // #search {
+// //   max-height: 25px;
+// //   background-color: red;
+// // }
+
+@media (max-width: 414px) {
+  header {
+    .container {
+      display: block;
+      text-align: left;
+      padding: 0 20px;
       input {
         width: 100%;
       }
-    }
-  }
-  #page-description-artist {
-    padding-top: 205px;
-    padding-bottom: 180px;
-  }
-  #page-similar {
-    // position: relative;
 
-    // max-width: 1200px;
-    // margin: auto;
-    // padding-top: 100px;
-    // margin-bottom: 100px;
-    padding-left: 20px;
+      .nav-bar {
+        display: block;
 
-    .artist {
-      // background-color: brown;
-      img {
-        width: 137px;
+        ul {
+          margin: 17px 0 18px;
+          li {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 3px;
+          }
+        }
       }
-
-      // text-align: center;
-      width: 137px;
-      margin: 0px 50px 25px 0px;
     }
-  }
-  .h1 {
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: bold;
-  }
 
-  .h2 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
+    // * {
+    //   flex-wrap: wrap;
+    //   margin: 0;
+    // }
   }
+  //   .news-body {
+  //     margin-top: 50px;
+  //   }
+  //   .track-item {
+  //     margin-right: 0px;
+  //   }
+  //   #header {
+  //     // flex-wrap: wrap;
+  //     flex-direction: column;
+  //     max-width: calc(100% - 20px * 2);
+  //     // justify-content: start;
+  //     align-items: flex-start;
+  //     > div {
+  //       // flex-wrap: wrap;
+  //       display: block;
+  //       width: 100%;
+  //     }
+
+  //     .nav {
+  //       margin-top: 17px;
+  //       span {
+  //         display: block;
+  //         margin-bottom: 3px;
+  //       }
+  //       margin-bottom: 18px;
+  //     }
+  //     form {
+  //       min-width: calc(100% - 20px);
+  //       input {
+  //         width: 100%;
+  //       }
+  //     }
+  //   }
+  //   #page-description-artist {
+  //     padding-top: 205px;
+  //     padding-bottom: 180px;
+  //   }
+  //   #page-similar {
+  //     // position: relative;
+
+  //     // max-width: 1200px;
+  //     // margin: auto;
+  //     // padding-top: 100px;
+  //     // margin-bottom: 100px;
+  //     padding-left: 20px;
+
+  //     .artist {
+  //       // background-color: brown;
+  //       img {
+  //         width: 137px;
+  //       }
+
+  //       // text-align: center;
+  //       width: 137px;
+  //       margin: 0px 50px 25px 0px;
+  //     }
+  //   }
+  //   .h1 {
+  //     font-size: 30px;
+  //     line-height: 45px;
+  //     font-weight: bold;
+  //   }
+
+  //   .h2 {
+  //     font-size: 18px;
+  //     line-height: 27px;
+  //     font-weight: bold;
+  //   }
 }

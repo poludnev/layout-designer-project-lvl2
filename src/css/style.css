@@ -288,6 +288,46 @@ header input {
   margin-bottom: 24px;
 }
 
+.news-item {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-item > img {
+  width: 575px;
+}
+.news-item .news-author > * {
+  margin-right: 16px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.news-item .news-author {
+  margin-bottom: 48px;
+}
+.news-item .h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: unset;
+}
+.news-item > div {
+  max-width: 575px;
+  text-align: left;
+}
+.news-item > img:nth-child(odd) {
+  margin-right: 50px;
+}
+
+.news-item:nth-child(odd) {
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.news-item:nth-child(2) {
+  margin-top: 48px;
+}
+
 @media (max-width: 414px) {
   .container {
     padding: 0 20px;

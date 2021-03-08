@@ -47,7 +47,7 @@ header {
     padding: 5px 10px;
     background-color: $dark;
     color: #757575;
-    height: 25px;
+    height: 26px;
     min-width: 248px;
     border-radius: 50px;
     border: 0 solid;
@@ -60,6 +60,10 @@ header {
   background-position: center;
   background-size: cover;
   padding: 200px 0px;
+
+  .intro {
+    margin-bottom: 32px;
+  }
 
   form {
     width: 570px;
@@ -306,7 +310,7 @@ header {
         flex-direction: column;
 
         ul {
-          display: block;
+          display: inline-block;
           margin: 16px 0;
           li {
             display: block;
@@ -324,6 +328,9 @@ header {
   #page-description {
     .container {
       padding-top: 50px;
+    }
+    .intro {
+      margin-bottom: 16px;
     }
     form {
       width: 100%;

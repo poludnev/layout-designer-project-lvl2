@@ -230,7 +230,7 @@ header input {
   padding: 5px 10px;
   background-color: #3c3b3d;
   color: #757575;
-  height: 25px;
+  height: 26px;
   min-width: 248px;
   border-radius: 50px;
   border: 0 solid;
@@ -242,6 +242,9 @@ header input {
   background-position: center;
   background-size: cover;
   padding: 200px 0px;
+}
+#page-description .intro {
+  margin-bottom: 32px;
 }
 #page-description form {
   width: 570px;
@@ -351,7 +354,7 @@ header input {
     flex-direction: column;
   }
   header .container .nav-bar ul {
-    display: block;
+    display: inline-block;
     margin: 16px 0;
   }
   header .container .nav-bar ul li {
@@ -365,6 +368,9 @@ header input {
 
   #page-description .container {
     padding-top: 50px;
+  }
+  #page-description .intro {
+    margin-bottom: 16px;
   }
   #page-description form {
     width: 100%;

@@ -206,20 +206,23 @@ header .container {
 }
 header .container .nav-bar {
   display: flex;
-  align-items: center;
 }
 header .logo {
   width: 24px;
   margin-right: 16px;
 }
 header ul {
+  display: flex;
+  align-items: center;
   list-style-type: none;
+  margin: 0;
   margin-left: 88px;
 }
 header ul li {
   display: inline;
   margin-left: 24px;
   color: #cacaca;
+  padding-bottom: 3px;
 }
 header ul li.active {
   color: #ffffff;
@@ -336,6 +339,8 @@ header input {
   header .container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: left;
     padding: 0 20px;
   }
@@ -343,15 +348,20 @@ header input {
     width: 100%;
   }
   header .container .nav-bar {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   header .container .nav-bar ul {
-    margin: 17px 0 18px;
+    display: block;
+    margin: 16px 0;
   }
   header .container .nav-bar ul li {
     display: block;
     margin-left: 0;
     margin-bottom: 0;
+  }
+  header .container form {
+    width: 100%;
   }
 
   #page-description .container {

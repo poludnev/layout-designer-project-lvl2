@@ -77,7 +77,6 @@ section {
 h1 {
   font-weight: bold;
   text-transform: uppercase;
-  // margin: 0px;
   font-size: 60px;
   line-height: 90px;
 }
@@ -85,18 +84,43 @@ h1 {
 h2 {
   font-weight: bold;
   text-transform: uppercase;
-  // margin: 0px;
   font-size: 38px;
   line-height: 57px;
 }
 
-// h3 {
-//   // font-weight: bold;
-//   text-transform: uppercase;
-//   margin: 0px;
-//   font-size: 24px;
-//   line-height: 36px;
-// }
+h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.btn {
+  height: 66px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  color: $white;
+  text-transform: uppercase;
+}
+
+%back-ground-image {
+  background-position: center;
+  background-size: cover;
+}
+.bg-free {
+  background-image: $bg-free-url;
+  // background-color: aquamarine;
+  @extend %back-ground-image;
+}
+.bg-standard {
+  background-image: $bg-standard-url;
+  @extend %back-ground-image;
+}
+.bg-premium {
+  background-image: $bg-premium-url;
+  @extend %back-ground-image;
+}
 
 // .h3 {
 //   @extend %h-element;
@@ -157,7 +181,6 @@ h2 {
   h1 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0px;
     font-size: 30px;
     line-height: 45px;
   }
@@ -165,18 +188,16 @@ h2 {
   h2 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0px;
     font-size: 18px;
     line-height: 27px;
   }
 
-  //   h3 {
-  //     font-weight: bold;
-  //     text-transform: uppercase;
-  //     margin: 0px;
-  //     font-size: 16px;
-  //     line-height: 24px;
-  //   }
+  h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+  }
 
   //   .h1 {
   //     @extend %h-element;
@@ -288,23 +309,6 @@ h2 {
   //   border-radius: 5px;
   //   padding: 20px 30px;
   //   text-align: center;
-  // }
-
-  // %back-ground-image {
-  //   background-position: center;
-  //   background-size: cover;
-  // }
-  // .bg-free {
-  //   background-image: $bg-free-url;
-  //   @extend %back-ground-image;
-  // }
-  // .bg-standard {
-  //   background-image: $bg-standard-url;
-  //   @extend %back-ground-image;
-  // }
-  // .bg-premium {
-  //   background-image: $bg-premium-url;
-  //   @extend %back-ground-image;
   // }
 
   // .flex-between {

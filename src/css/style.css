@@ -78,11 +78,43 @@ h2 {
   line-height: 57px;
 }
 
+h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.btn {
+  height: 66px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.bg-premium, .bg-standard, .bg-free {
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-free {
+  background-image: url(../images/subscribe_1.png);
+}
+
+.bg-standard {
+  background-image: url(../images/subscribe_2.png);
+}
+
+.bg-premium {
+  background-image: url(../images/subscribe_3.png);
+}
+
 @media (max-width: 414px) {
   h1 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0px;
     font-size: 30px;
     line-height: 45px;
   }
@@ -90,9 +122,15 @@ h2 {
   h2 {
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0px;
     font-size: 18px;
     line-height: 27px;
+  }
+
+  h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 .ml-16px {
@@ -119,11 +157,37 @@ h2 {
   margin-bottom: 32px;
 }
 
+.mt-50px {
+  margin-top: 50px;
+}
+
+.pt-16px {
+  padding-top: 16px;
+}
+
 .text-size-1 {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+.text-size-3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.text-size-7 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 96px;
+}
+
+.text-small {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 19.2px;
 }
 
 header {
@@ -201,6 +265,28 @@ header input {
   text-transform: uppercase;
 }
 
+#page-pricing .pricing-items {
+  flex-wrap: wrap;
+}
+#page-pricing .pricing-items .pricing-item {
+  width: 370px;
+  border-radius: 1rem;
+  padding: 21px 1.5rem 66px;
+  margin-bottom: 50px;
+}
+#page-pricing .pricing-items .pricing-item h3 {
+  margin-bottom: 180px;
+}
+#page-pricing .pricing-items .pricing-item .btn {
+  margin: 24px 0 64px;
+}
+#page-pricing .pricing-items .pricing-item .pricing-value {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
 @media (max-width: 414px) {
   .container {
     padding: 0 20px;
@@ -226,6 +312,9 @@ header input {
     margin-bottom: 3px;
   }
 
+  #page-description .container {
+    padding-top: 50px;
+  }
   #page-description form {
     width: 100%;
   }
@@ -234,6 +323,15 @@ header input {
   }
   #page-description form button {
     width: 100%;
+  }
+
+  #page-pricing .pricing-item {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-top: 18px;
+  }
+  #page-pricing .pricing-item h3 {
+    margin-bottom: 200px;
   }
 }
 

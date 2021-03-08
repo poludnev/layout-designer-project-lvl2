@@ -77,9 +77,9 @@ header {
       width: 100%;
       border-color: $green;
       background-color: $green;
-      color: $white;
+      color: $white; // common
       padding: 20px 30px;
-      text-transform: uppercase;
+      text-transform: uppercase; //@at-root
     }
   }
 }
@@ -153,40 +153,35 @@ header {
 //   }
 // }
 
-// #page-pricing {
-//   background-color: $bg-black;
-//   padding-top: 100px;
-// }
+#page-pricing {
+  //   background-color: $bg-black;
+  // padding-top: 100px;
+  // }
+  .pricing-items {
+    flex-wrap: wrap;
+    // margin-bottom: 40px;
+    .pricing-item {
+      // background-color: yellowgreen;
+      width: 370px;
+      border-radius: 1rem;
+      padding: 21px 1.5rem 66px;
+      margin-bottom: 50px;
 
-// .pricing-item {
-//   //   background-color: yellowgreen;
-//   width: 367px;
-//   height: 619px;
-//   border-radius: 1rem;
-//   padding: 1.5rem;
-//   margin-bottom: 39px;
-
-//   .h3 {
-//     margin-bottom: 200px;
-//     font-weight: 400;
-//   }
-//   .pricing-value {
-//     display: flex;
-//     justify-content: center;
-//     align-items: flex-start;
-//     margin-bottom: 24px;
-//   }
-//   .text-size-3 {
-//     padding: 16px;
-//   }
-//   .btn {
-//     margin-bottom: 64px;
-//     width: 320px;
-//   }
-//   .pricing-footer {
-//     margin: 0;
-//   }
-// }
+      h3 {
+        margin-bottom: 180px;
+      }
+      .btn {
+        margin: 24px 0 64px;
+      }
+      .pricing-value {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
 
 // .news-item {
 //   margin-top: 65px;
@@ -315,13 +310,12 @@ header {
         }
       }
     }
-
-    // * {
-    //   flex-wrap: wrap;
-    //   margin: 0;
-    // }
   }
+
   #page-description {
+    .container {
+      padding-top: 50px;
+    }
     form {
       width: 100%;
       input {
@@ -332,6 +326,18 @@ header {
       }
     }
   }
+
+  #page-pricing {
+    .pricing-item {
+      width: 100%;
+      margin-bottom: 50px;
+      padding-top: 18px;
+      h3 {
+        margin-bottom: 200px;
+      }
+    }
+  }
+
   //   .news-body {
   //     margin-top: 50px;
   //   }

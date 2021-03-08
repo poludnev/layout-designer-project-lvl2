@@ -389,12 +389,12 @@ header input {
     width: 100%;
   }
 
-  #page-pricing .pricing-item {
+  #page-pricing .pricing-items .pricing-item {
     width: 100%;
     margin-bottom: 50px;
-    padding-top: 18px;
+    padding-top: 14px;
   }
-  #page-pricing .pricing-item h3 {
+  #page-pricing .pricing-items .pricing-item h3 {
     margin-bottom: 200px;
   }
 }

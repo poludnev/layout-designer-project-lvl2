@@ -347,12 +347,14 @@ header {
   }
 
   #page-pricing {
-    .pricing-item {
-      width: 100%;
-      margin-bottom: 50px;
-      padding-top: 18px;
-      h3 {
-        margin-bottom: 200px;
+    .pricing-items {
+      .pricing-item {
+        width: 100%;
+        margin-bottom: 50px;
+        padding-top: 14px;
+        h3 {
+          margin-bottom: 200px;
+        }
       }
     }
   }

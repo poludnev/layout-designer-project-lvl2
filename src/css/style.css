@@ -64,24 +64,37 @@ section {
   justify-content: space-between;
 }
 
-li.active {
-  color: #ffffff;
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 90px;
 }
 
-ml-16px {
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 38px;
+  line-height: 57px;
+}
+
+.ml-16px {
   margin-left: 16px;
 }
 
-mr-16px {
+.mr-16px {
   margin-right: 16px;
 }
 
-mr-88px {
+.mr-88px {
   margin-right: 88px;
 }
 
-gray {
-  color: #cacaca;
+.text-size-1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 header {
@@ -114,6 +127,9 @@ header ul li {
   margin-left: 24px;
   color: #cacaca;
 }
+header ul li.active {
+  color: #ffffff;
+}
 header input {
   padding: 5px 10px;
   background-color: #3c3b3d;
@@ -131,32 +147,6 @@ header input {
   background-size: cover;
   padding: 200px 0px;
 }
-#page-description form {
-  display: flex;
-  flex-wrap: wrap;
-  width: 570px;
-  margin: auto;
-}
-#page-description form input,
-#page-description button {
-  min-width: 270px;
-  height: 50px;
-  padding-left: 20px;
-  margin-bottom: 1.5rem;
-  border: 2px #cacaca solid;
-  border-left-width: 2px;
-  border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0);
-  color: #ffffff;
-}
-#page-description form > button {
-  background-color: #34c176;
-  color: #ffffff;
-  border-radius: 5px;
-  padding: 20px 30px;
-  text-transform: uppercase;
-}
-
 @media (max-width: 414px) {
   header .container {
     display: block;

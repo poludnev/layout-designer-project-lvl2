@@ -122,6 +122,11 @@ h3 {
   background-image: url(../images/subscribe_3.png);
 }
 
+.flex-wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
 @media (max-width: 414px) {
   h1 {
     font-weight: bold;
@@ -362,6 +367,43 @@ header input {
 }
 #page-news .news-item:nth-child(2) {
   margin-top: 48px;
+}
+
+#page-app {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#page-app p {
+  max-width: 600px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+#page-app img {
+  margin: auto;
+}
+#page-app .btn {
+  background-color: #95390c;
+  border: 1px solid #95390c;
+  border-radius: 32px;
+  width: 131px;
+  height: 53px;
+  padding: 17px 40px;
+  text-transform: unset;
+}
+#page-app h2 {
+  margin-bottom: 48px;
+}
+
+#footer {
+  padding-top: 61px;
+}
+#footer ul {
+  color: #e0e0e0;
+}
+
+hr {
+  border: 1px solid #e0e0e0;
 }
 
 @media (max-width: 414px) {

@@ -179,7 +179,39 @@ header {
   }
 }
 
+#page-app {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+
+  p {
+    max-width: 600px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  img {
+    margin: auto;
+  }
+
+  .btn {
+    background-color: $red;
+    border: 1px solid $red;
+    border-radius: 32px;
+    width: 131px;
+    height: 53px;
+    padding: 17px 40px;
+    text-transform: unset;
+  }
+  h2 {
+    margin-bottom: 48px;
+  }
+}
+
 // #page-similar {
+//   max-width: 1240px;
+//   margin-left: 0;
+//   margin-right: 0;
 //   position: relative;
 
 //   max-width: 1200px;
@@ -250,28 +282,15 @@ header {
 
 //
 
-// #page-app {
-//   .btn {
-//     border: 1px solid $red;
-//     width: 131px;
-//     height: 53px;
-//     padding: 17px 40px;
-//     text-transform: unset;
-//   }
-//   .h2 {
-//     margin-bottom: 48px;
-//   }
-// }
-
-// #footer {
-//   padding-top: 61px;
-//   ul {
-//     color: $grey;
-//   }
-// }
-// hr {
-//   border: 1px solid $grey;
-// }
+#footer {
+  padding-top: 61px;
+  ul {
+    color: $grey;
+  }
+}
+hr {
+  border: 1px solid $grey;
+}
 
 // .disk-item {
 //   img {

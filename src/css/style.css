@@ -85,6 +85,12 @@ h3 {
   line-height: 36px;
 }
 
+.h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
 .btn {
   display: block;
   height: 66px;
@@ -122,9 +128,31 @@ h3 {
   background-image: url(../images/subscribe_3.png);
 }
 
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 .flex-wrap-reverse {
   display: flex;
   flex-wrap: wrap-reverse;
+}
+
+.columns-4 {
+  column-count: 4;
+}
+
+.column-break-before {
+  break-before: column;
+}
+
+.inline > li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 414px) {
@@ -149,6 +177,10 @@ h3 {
     line-height: 24px;
   }
 }
+.m-15px {
+  margin: 15px;
+}
+
 .ml-16px {
   margin-left: 16px;
 }
@@ -396,15 +428,28 @@ header input {
   margin-bottom: 48px;
 }
 
-#footer {
-  padding-top: 61px;
+footer {
+  margin-top: 100px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  padding-top: 62px;
+  text-align: left;
 }
-#footer ul {
+footer h4 {
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+footer ul {
+  text-align: left;
   color: #e0e0e0;
 }
-
-hr {
+footer hr {
   border: 1px solid #e0e0e0;
+  margin-top: 72px;
+}
+footer .container:nth-child(3) {
+  padding-top: 40px;
+  padding-bottom: 48px;
 }
 
 @media (max-width: 414px) {

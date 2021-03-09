@@ -95,6 +95,12 @@ h3 {
   line-height: 36px;
 }
 
+.h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
 .btn {
   display: block;
   height: 66px;
@@ -131,10 +137,31 @@ h3 {
   background-image: $bg-premium-url;
   @extend %back-ground-image;
 }
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
 
 .flex-wrap-reverse {
   display: flex;
   flex-wrap: wrap-reverse;
+}
+
+.columns-4 {
+  column-count: 4;
+}
+
+.column-break-before {
+  break-before: column;
+}
+
+.inline > li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 // .text-left {
 //   text-align: left;
@@ -242,32 +269,7 @@ h3 {
   //   img {
   //     max-width: 374px;
   //   }
-  //   #footer {
-  //     .container:nth-child(1) {
-  //       div div:last-child ul {
-  //         margin-bottom: 0px;
-  //       }
 
-  //       > div {
-  //         max-width: 50%;
-  //         display: flex;
-  //         flex-wrap: wrap;
-  //         ul {
-  //           margin-bottom: 30px;
-  //           // background-color: chartreuse;
-  //         }
-  //       }
-  //     }
-  //     .container:nth-child(3) {
-  //       margin-top: 0px;
-  //       margin-bottom: 0px;
-  //       // background-color: brown;
-  //       li {
-  //         display: block;
-  //         margin-bottom: 0px;
-  //       }
-  //     }
-  //   }
   //   .disk-item {
   //     max-width: 137px;
   //     img {
@@ -353,10 +355,6 @@ h3 {
   //   color: $grey;
   // }
 
-  // .columns-4 {
-  //   column-count: 4;
-  // }
-
   //
   // .text-center {
   //   text-align: center;
@@ -405,25 +403,6 @@ h3 {
 
   // }
 
-  // .bg-gradient {
-  //   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  // }
-
-  // .h4 {
-  //   font-size: 18px;
-  //   font-weight: 700;
-  //   line-height: 27px;
-  // }
-
-  // .column-break-before {
-  //   break-before: column;
-  // }
-  // ul {
-  //   list-style: none;
-  //   margin: 0;
-  //   padding: 0;
-  // }
-
   // .mb-74px {
   //   margin-bottom: 74px;
   // }
@@ -431,10 +410,6 @@ h3 {
   // hr {
   //   margin: 0;
   //   padding: 0;
-  // }
-
-  // .inline > li {
-  //   display: inline-block;
   // }
 
   // .track-item {

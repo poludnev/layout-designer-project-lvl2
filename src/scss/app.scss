@@ -378,9 +378,45 @@ header {
 
   #page-news {
     .news-item {
+      > img {
+        width: 100%;
+        margin-bottom: 50px;
+      }
       h3 {
         font-size: 16px;
         line-height: 24px;
+      }
+    }
+    .news-item {
+      p {
+        margin-top: 16px;
+        margin-bottom: 24px;
+      }
+
+      .btn {
+        padding: 16px 30px;
+        height: 53px;
+        width: 136px;
+        border: 1px solid $light-gray;
+      }
+
+      .news-author span {
+        margin-left: 16px;
+        // font-size: 12.8px;
+        line-height: 19px;
+      }
+      .news-author {
+        margin-bottom: 48px;
+        // margin-right: 16px;
+      }
+
+      > div {
+        max-width: 575px;
+        text-align: left;
+      }
+
+      > img:nth-child(odd) {
+        margin-right: 50px;
       }
     }
   }

@@ -397,6 +397,10 @@ header input {
   #page-pricing .pricing-items .pricing-item h3 {
     margin-bottom: 200px;
   }
+
+  #page-news h2 {
+    color: blueviolet;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

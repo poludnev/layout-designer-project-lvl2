@@ -111,6 +111,13 @@ h3 {
   background-position: center;
   background-size: cover;
 }
+
+.orange {
+  color: $orange;
+}
+.light-gray {
+  color: $light-gray;
+}
 .bg-free {
   background-image: $bg-free-url;
   // background-color: aquamarine;
@@ -330,18 +337,10 @@ h3 {
   //   width: 19px;
   // }
 
-  // .text-capitalize {
-  //   text-transform: uppercase;
-  // }
   // .text-bold {
   //   font-weight: bold;
   // }
-  // .orange {
-  //   color: $orange;
-  // }
-  // .light-gray {
-  //   color: $light-grey;
-  // }
+
   // .gray {
   //   color: $grey;
   // }

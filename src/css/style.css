@@ -102,6 +102,14 @@ h3 {
   background-size: cover;
 }
 
+.orange {
+  color: #f89202;
+}
+
+.light-gray {
+  color: #cacaca;
+}
+
 .bg-free {
   background-image: url(../images/subscribe_1.png);
 }
@@ -190,7 +198,11 @@ h3 {
 .text-small {
   font-size: 12.8px;
   font-weight: 400;
-  line-height: 19.2px;
+  line-height: 19px;
+}
+
+.text-capitalize {
+  text-transform: uppercase;
 }
 
 header {
@@ -300,6 +312,11 @@ header input {
   margin-bottom: 40px;
 }
 
+#page-news {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+}
 #page-news .news-item {
   margin-top: 65px;
   display: flex;
@@ -314,13 +331,19 @@ header input {
   font-size: 30px;
   line-height: 45px;
 }
+#page-news .news-item p {
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
 #page-news .news-item .btn {
   padding: 16px 30px;
+  height: 53px;
+  width: 136px;
+  border: 1px solid #cacaca;
 }
-#page-news .news-item .news-author > * {
-  margin-right: 16px;
-  font-size: 12.8px;
-  line-height: 19.2px;
+#page-news .news-item .news-author span {
+  margin-left: 16px;
+  line-height: 19px;
 }
 #page-news .news-item .news-author {
   margin-bottom: 48px;
@@ -399,8 +422,8 @@ header input {
   }
 
   #page-news .news-item h3 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 

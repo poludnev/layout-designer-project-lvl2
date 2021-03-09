@@ -120,6 +120,9 @@ header {
 }
 
 #page-news {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
   .news-item {
     margin-top: 65px;
     display: flex;
@@ -134,17 +137,26 @@ header {
       line-height: 45px;
     }
 
-    .btn {
-      padding: 16px 30px;
+    p {
+      margin-top: 30px;
+      margin-bottom: 24px;
     }
 
-    .news-author > * {
-      margin-right: 16px;
-      font-size: 12.8px;
-      line-height: 19.2px;
+    .btn {
+      padding: 16px 30px;
+      height: 53px;
+      width: 136px;
+      border: 1px solid $light-gray;
+    }
+
+    .news-author span {
+      margin-left: 16px;
+      // font-size: 12.8px;
+      line-height: 19px;
     }
     .news-author {
       margin-bottom: 48px;
+      // margin-right: 16px;
     }
 
     > div {
@@ -367,8 +379,8 @@ header {
   #page-news {
     .news-item {
       h3 {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 16px;
+        line-height: 24px;
       }
     }
   }

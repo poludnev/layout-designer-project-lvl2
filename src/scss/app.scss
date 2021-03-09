@@ -185,8 +185,9 @@ header {
   margin-right: 0;
 
   p {
-    max-width: 600px;
+    max-width: 580px;
     text-align: left;
+    margin-top: 16px;
     margin-bottom: 16px;
   }
 
@@ -200,7 +201,7 @@ header {
     border-radius: 32px;
     width: 131px;
     height: 53px;
-    padding: 17px 40px;
+    padding: 16px 40px;
     text-transform: unset;
   }
   h2 {

@@ -441,6 +441,9 @@ footer .columns {
 footer .columns > div {
   max-width: 270px;
 }
+footer .columns a {
+  line-height: 0px;
+}
 footer .column-break-before {
   break-before: column;
 }

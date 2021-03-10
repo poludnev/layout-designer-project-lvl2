@@ -537,6 +537,9 @@ footer .container:nth-child(3) a {
     max-width: 100%;
     margin-bottom: 31px;
   }
+  footer .container:nth-child(3) {
+    padding-bottom: 32px;
+  }
   footer .container:nth-child(3) a {
     display: block;
   }

@@ -441,9 +441,6 @@ footer .columns {
 footer .columns > div {
   max-width: 270px;
 }
-footer .columns a {
-  line-height: 0px;
-}
 footer .column-break-before {
   break-before: column;
 }
@@ -539,6 +536,13 @@ footer .container:nth-child(3) a {
   footer .columns > div {
     max-width: 100%;
     margin-bottom: 31px;
+  }
+  footer .off-1 {
+    margin-bottom: 14px;
+  }
+  footer hr {
+    border: 1px solid #e0e0e0;
+    margin-top: 69px;
   }
   footer .container:nth-child(3) {
     padding-bottom: 32px;

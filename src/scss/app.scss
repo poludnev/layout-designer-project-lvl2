@@ -228,9 +228,6 @@ footer {
     > div {
       max-width: 270px;
     }
-    a {
-      line-height: 0px;
-    }
   }
 
   .column-break-before {
@@ -508,13 +505,19 @@ footer {
   }
 
   footer {
-    
     .columns {
       column-count: unset;
       > div {
         max-width: 100%;
         margin-bottom: 31px;
       }
+    }
+    .off-1 {
+      margin-bottom: 14px;
+    }
+    hr {
+      border: 1px solid $grey;
+      margin-top: 69px;
     }
     .container:nth-child(3) {
       // padding-top: 40px;

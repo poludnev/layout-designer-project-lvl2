@@ -428,7 +428,9 @@ footer {
 footer .container {
   text-align: left;
 }
-footer h4 {
+footer h2 {
+  font-size: 18px;
+  line-height: 27px;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 15px;

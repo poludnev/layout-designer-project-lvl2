@@ -456,7 +456,6 @@ footer .container:nth-child(3) {
   padding-top: 40px;
   padding-bottom: 48px;
 }
-
 @media (max-width: 414px) {
   .container {
     padding: 0 20px;
@@ -525,6 +524,13 @@ footer .container:nth-child(3) {
   }
   #page-news .news-item p {
     margin-top: 16px;
+  }
+
+  footer .columns {
+    column-count: unset;
+  }
+  footer .container:nth-child(3) a {
+    display: block;
   }
 }
 

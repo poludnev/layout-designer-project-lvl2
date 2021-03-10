@@ -245,6 +245,9 @@ footer {
     padding-top: 40px;
 
     padding-bottom: 48px;
+    a {
+      // display: block;
+    }
   }
 }
 
@@ -500,6 +503,23 @@ footer {
     //   }
     // }
   }
+
+  footer {
+    .columns {
+      column-count: unset;
+      // > div {
+      // max-width: 270px;
+    }
+    .container:nth-child(3) {
+      // padding-top: 40px;
+
+      // padding-bottom: 48px;
+      a {
+        display: block;
+      }
+    }
+  }
+
   //   .news-body {
   //     margin-top: 50px;
   //   }

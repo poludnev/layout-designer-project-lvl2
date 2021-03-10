@@ -246,7 +246,7 @@ footer {
 
     padding-bottom: 48px;
     a {
-      // display: block;
+      margin: 0 16px 16px 0;
     }
   }
 }
@@ -507,8 +507,10 @@ footer {
   footer {
     .columns {
       column-count: unset;
-      // > div {
-      // max-width: 270px;
+      > div {
+        max-width: 100%;
+        margin-bottom: 31px;
+      }
     }
     .container:nth-child(3) {
       // padding-top: 40px;

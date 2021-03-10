@@ -456,6 +456,10 @@ footer .container:nth-child(3) {
   padding-top: 40px;
   padding-bottom: 48px;
 }
+footer .container:nth-child(3) a {
+  margin: 0 16px 16px 0;
+}
+
 @media (max-width: 414px) {
   .container {
     padding: 0 20px;
@@ -528,6 +532,10 @@ footer .container:nth-child(3) {
 
   footer .columns {
     column-count: unset;
+  }
+  footer .columns > div {
+    max-width: 100%;
+    margin-bottom: 31px;
   }
   footer .container:nth-child(3) a {
     display: block;

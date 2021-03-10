@@ -213,11 +213,23 @@ footer {
   margin-top: 100px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   padding-top: 62px;
-  text-align: left;
+  .container {
+    text-align: left;
+  }
   h4 {
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 15px;
+  }
+  .columns {
+    column-count: 4;
+    > div {
+      max-width: 270px;
+    }
+  }
+
+  .column-break-before {
+    break-before: column;
   }
   ul {
     text-align: left;
@@ -229,6 +241,7 @@ footer {
   }
   .container:nth-child(3) {
     padding-top: 40px;
+    
     padding-bottom: 48px;
   }
 }

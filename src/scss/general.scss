@@ -146,8 +146,6 @@ h3 {
   flex-wrap: wrap-reverse;
 }
 
-
-
 .inline > li {
   display: inline-block;
 }
@@ -157,9 +155,16 @@ ul {
   margin: 0;
   padding: 0;
 }
-// .text-left {
-//   text-align: left;
-// }
+
+.bg-red {
+  background-color: $red;
+}
+.bg-purple {
+  background-color: $purple;
+}
+.text-left {
+  text-align: left;
+}
 
 // .h3 {
 //   @extend %h-element;
@@ -361,13 +366,6 @@ ul {
   // }
   // .border-0 {
   //   border: 0px;
-  // }
-
-  // .bg-red {
-  //   background-color: $red;
-  // }
-  // .bg-purple {
-  //   background-color: $purple;
   // }
 
   // .text-small {

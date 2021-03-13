@@ -602,19 +602,10 @@ footer .container:nth-child(3) a {
   margin-top: 25px;
 }
 #page-discography .disk-items .disk-item img {
+  display: block;
   margin-bottom: 18px;
 }
 
-#page-similar {
-  max-width: 1240px;
-  margin-left: 0;
-  margin-right: 0;
-  position: relative;
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 100px;
-  margin-bottom: 100px;
-}
 #page-similar .artist {
   text-align: center;
   margin: 0px 50px 25px 0px;

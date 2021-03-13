@@ -378,6 +378,7 @@ footer {
 
     .disk-item {
       img {
+        display: block;
         margin-bottom: 18px;
       }
       margin-right: 50px;
@@ -391,15 +392,15 @@ footer {
 }
 
 #page-similar {
-  max-width: 1240px;
-  margin-left: 0;
-  margin-right: 0;
-  position: relative;
+  // max-width: 1240px;
+  // margin-left: 0;
+  // margin-right: 0;
+  // position: relative;
 
-  max-width: 1200px;
-  margin: auto;
-  padding-top: 100px;
-  margin-bottom: 100px;
+  // max-width: 1200px;
+  // margin: auto;
+  // padding-top: 100px;
+  // margin-bottom: 100px;
 
   .artist {
     // background-color: brown;

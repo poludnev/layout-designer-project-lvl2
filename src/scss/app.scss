@@ -4,13 +4,15 @@
 @import 'text.scss';
 
 header {
+  position: absolute;
+  top: 25px;
+  z-index: 9999;
+
+  width: 100%;
+
   font-size: 11px;
   line-height: 16px;
   text-transform: uppercase;
-  width: 100%;
-  position: absolute;
-  z-index: 9999;
-  top: 25px;
 
   .container {
     display: flex;
@@ -27,16 +29,19 @@ header {
   }
 
   ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
     margin: 0;
     margin-left: 88px;
 
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+
     li {
-      display: inline;
       margin-left: 24px;
+      display: inline;
       color: $light-gray;
+
       &.active {
         color: $white;
       }
@@ -44,11 +49,13 @@ header {
   }
 
   input {
+    min-width: 248px;
+    height: 26px;
     padding: 5px 10px;
+
     background-color: $dark;
     color: #757575;
-    height: 26px;
-    min-width: 248px;
+
     border-radius: 50px;
     border: 0 solid;
   }
@@ -63,10 +70,11 @@ header {
 }
 
 #page-description {
+  padding: 200px 0;
+
+  background-size: cover;
   background-color: $bg-black;
   background-position: center;
-  background-size: cover;
-  padding: 200px 0px;
 
   .intro {
     margin-bottom: 32px;
@@ -90,24 +98,25 @@ header {
 
       color: $white;
 
+      background-color: rgba(255, 255, 255, 0);
+
       border-color: $light-gray;
 
-      background-color: rgba(255, 255, 255, 0);
       border-radius: 3px;
     }
 
     button {
       width: 100%;
       height: 60px;
+      margin-bottom: 0;
       padding: 20px 30px;
-      margin-bottom: 0px;
-      color: $white;
-      background-color: $green;
 
+      color: $white;
+      text-transform: uppercase;
+
+      background-color: $green;
       border-color: $green;
       border-radius: 5px;
-
-      text-transform: uppercase;
     }
   }
 
@@ -123,8 +132,8 @@ header {
     border-radius: 5px;
 
     img {
-      margin-right: 16px;
       width: 20px;
+      margin-right: 16px;
 
       filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
         brightness(106%) contrast(99%);
@@ -134,18 +143,18 @@ header {
 
 #page-pricing {
   max-width: 1240px;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 
   .pricing-items {
     flex-wrap: wrap;
 
     .pricing-item {
       width: 370px;
+      margin-bottom: 38px;
+      padding: 22px 1.5rem 66px;
 
       border-radius: 1rem;
-      padding: 22px 1.5rem 66px;
-      margin-bottom: 38px;
 
       h3 {
         margin-bottom: 200px;
@@ -157,8 +166,9 @@ header {
 
       .pricing-value {
         display: flex;
-        justify-content: center;
         align-items: flex-start;
+        justify-content: center;
+
         margin-bottom: 40px;
       }
     }
@@ -173,15 +183,16 @@ header {
 
   h3 {
     font-size: 18px;
-    line-height: 27px;
     font-weight: 700;
+    line-height: 27px;
     text-transform: capitalize;
   }
 
   .artist {
-    text-align: center;
-    margin-right: 50px;
     margin-top: 25px;
+    margin-right: 50px;
+
+    text-align: center;
 
     img {
       display: block;
@@ -235,12 +246,14 @@ header {
     }
 
     .news-author {
-      margin-bottom: 48px;
       display: flex;
+
+      margin-bottom: 48px;
     }
 
     > div {
       max-width: 575px;
+
       text-align: left;
     }
 
@@ -282,12 +295,12 @@ header {
     height: 53px;
     padding: 16px 40px;
 
+    text-transform: unset;
+
     background-color: $red;
 
     border: 1px solid $red;
     border-radius: 32px;
-
-    text-transform: unset;
   }
 
   h2 {
@@ -370,13 +383,11 @@ footer {
 
   form > input,
   button {
-    // border-left-width: 2px;
-
     min-width: 200px;
-    margin-right: 24px;
-    padding-left: 31px;
 
+    margin-right: 24px;
     margin-bottom: 1.5rem;
+    padding-left: 31px;
 
     color: $white;
 
@@ -396,9 +407,9 @@ footer {
 
     color: $white;
 
-    background-color: $green;
-
     text-transform: uppercase;
+
+    background-color: $green;
 
     border-radius: 5px;
   }
@@ -423,11 +434,12 @@ footer {
 
   .track-item {
     display: flex;
-    margin-top: 25px;
-    margin-right: 50px;
     flex-basis: 400px;
     flex-grow: 1;
     justify-content: space-between;
+
+    margin-top: 25px;
+    margin-right: 50px;
 
     img {
       width: 55px;

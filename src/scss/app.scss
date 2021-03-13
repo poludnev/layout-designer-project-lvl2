@@ -515,27 +515,21 @@ footer {
     }
   }
 
-  #page-discography {
-    h3 {
-    }
-    .disk-items {
-      .disk-item {
-        width: 137px;
-        img {
-          width: 137px;
-        }
-      }
-    }
-  }
-
   #page-similar {
-    h3 {
-    }
     .artist {
       width: 137px;
       img {
-        display: block;
-        margin-bottom: 18px;
+        width: 137px;
+      }
+    }
+  }
+}
+
+#page-discography {
+  .disk-items {
+    .disk-item {
+      width: 137px;
+      img {
         width: 137px;
       }
     }

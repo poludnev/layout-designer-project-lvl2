@@ -124,6 +124,12 @@ footer {
   }
 }
 
+.news-item {
+  > img {
+    width: 575px;
+  }
+}
+
 #page-app {
   max-width: 1240px;
   margin-right: 0;
@@ -296,17 +302,6 @@ footer {
       width: 250px;
       margin-bottom: 18px;
     }
-  }
-}
-
-.news-item {
-  // display: flex;
-  // flex-wrap: wrap;
-
-  // margin-top: 65px;
-
-  > img {
-    width: 575px;
   }
 }
 

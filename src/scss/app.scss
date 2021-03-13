@@ -299,6 +299,32 @@ footer {
   }
 }
 
+#page-discography {
+  max-width: 1240px;
+  margin-right: 0;
+  margin-left: 0;
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+  }
+
+  .disk-items {
+    margin-top: 23px;
+
+    .disk-item {
+      img {
+        display: block;
+        margin-bottom: 18px;
+      }
+      margin-top: 25px;
+      margin-right: 50px;
+    }
+  }
+}
+
 #page-news {
   max-width: 1240px;
 
@@ -366,32 +392,6 @@ footer {
 
   .news-item:nth-child(2) {
     margin-top: 48px;
-  }
-}
-
-#page-discography {
-  max-width: 1240px;
-  margin-right: 0;
-  margin-left: 0;
-
-  h3 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    text-transform: capitalize;
-  }
-
-  .disk-items {
-    margin-top: 23px;
-
-    .disk-item {
-      img {
-        display: block;
-        margin-bottom: 18px;
-      }
-      margin-top: 25px;
-      margin-right: 50px;
-    }
   }
 }
 

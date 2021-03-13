@@ -563,6 +563,31 @@ footer {
     }
   }
 
+  #page-discography {
+    // max-width: 1240px;
+    // margin-left: 0;
+    // margin-right: 0;
+    h3 {
+      // font-size: 18px;
+      // line-height: 27px;
+      // font-weight: 700;
+      // text-transform: capitalize;
+    }
+    .disk-items {
+      // margin-top: 23px;
+
+      .disk-item {
+        width: 137px;
+        img {
+          // margin-bottom: 18px;
+          width: 137px;
+        }
+        // margin-right: 50px;
+        // margin-top: 25px;
+      }
+    }
+  }
+
   //   .news-body {
   //     margin-top: 50px;
   //   }

@@ -719,6 +719,13 @@ footer .container:nth-child(3) a {
   footer .container:nth-child(3) a {
     display: block;
   }
+
+  #page-discography .disk-items .disk-item {
+    width: 137px;
+  }
+  #page-discography .disk-items .disk-item img {
+    width: 137px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

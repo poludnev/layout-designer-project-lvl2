@@ -558,10 +558,10 @@ footer .container:nth-child(3) a {
 #page-popular-track .track-items {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 48px;
+  margin-top: 23px;
 }
 #page-popular-track .track-item {
-  margin-bottom: 25px;
+  margin-top: 25px;
   margin-right: 50px;
   flex-grow: 1;
   flex-basis: 400px;

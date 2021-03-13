@@ -156,6 +156,31 @@ header {
   }
 }
 
+#page-similar {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+
+  h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .artist {
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 25px;
+
+    img {
+      display: block;
+      width: 250px;
+      margin-bottom: 18px;
+    }
+  }
+}
+
 #page-news {
   max-width: 1240px;
   margin-left: 0;
@@ -409,31 +434,6 @@ footer {
   }
 }
 
-#page-similar {
-  max-width: 1240px;
-  margin-left: 0;
-  margin-right: 0;
-
-  h3 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 700;
-    text-transform: capitalize;
-  }
-
-  .artist {
-    text-align: center;
-    margin-right: 50px;
-    margin-top: 25px;
-
-    img {
-      display: block;
-      margin-bottom: 18px;
-      width: 250px;
-    }
-  }
-}
-
 @media (max-width: 414px) {
   .container {
     padding: 0 20px;
@@ -446,6 +446,7 @@ footer {
       align-items: flex-start;
       justify-content: flex-start;
       padding: 0 20px;
+
       text-align: left;
 
       input {

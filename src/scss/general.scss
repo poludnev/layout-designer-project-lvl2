@@ -26,18 +26,19 @@ body {
   font-weight: 400px;
   line-height: 1.5;
 
-  background-color: $bg-black;
   color: $white;
+  background-color: $bg-black;
 }
 
 .sr-only {
   position: absolute;
+  overflow: hidden;
 
+  border: 0;
   width: 1px;
   height: 1px;
   padding: 0;
-  border: 0;
-  overflow: hidden;
+
 
   white-space: nowrap;
 }
@@ -54,20 +55,26 @@ a {
 
 section {
   position: relative;
+
   margin: auto;
   padding-top: 100px;
+
   background-color: $bg-black;
 }
 
 .container {
   margin: auto;
-  text-align: center;
+
   max-width: 1200px;
+
+  text-align: center;
 }
+
 .flex-vertical-center {
   display: flex;
   align-items: center;
 }
+
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -75,41 +82,46 @@ section {
 
 h1 {
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 60px;
   line-height: 90px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-weight: bold;
-  text-transform: uppercase;
   font-size: 38px;
   line-height: 57px;
+  text-transform: uppercase;
 }
 
 h3 {
   font-weight: normal;
-  text-transform: uppercase;
   font-size: 24px;
   line-height: 36px;
+  text-transform: uppercase;
 }
 
 .h4 {
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
   line-height: 27px;
 }
 
 .btn {
   display: block;
-  height: 66px;
   width: 100%;
-  border-radius: 5px;
+  height: 66px;
   background-color: rgba(255, 255, 255, 0);
-  border: 2px $light-grey solid;
+
+  border-radius: 5px;
+
   color: $white;
-  text-transform: uppercase;
+
+  border: 2px $light-grey solid;
+
+
   padding: 20px 30px;
+  text-transform: uppercase;
 }
 
 %back-ground-image {
@@ -120,21 +132,29 @@ h3 {
 .orange {
   color: $orange;
 }
+
 .light-gray {
   color: $light-gray;
 }
+
 .bg-free {
   background-image: $bg-free-url;
+
   @extend %back-ground-image;
 }
+
 .bg-standard {
   background-image: $bg-standard-url;
+
   @extend %back-ground-image;
 }
+
 .bg-premium {
   background-image: $bg-premium-url;
+
   @extend %back-ground-image;
 }
+
 .bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
@@ -176,21 +196,21 @@ ul {
   h1 {
     font-weight: bold;
     font-size: 30px;
-    text-transform: uppercase;
     line-height: 45px;
+    text-transform: uppercase;
   }
 
   h2 {
     font-weight: bold;
     font-size: 18px;
-    text-transform: uppercase;
     line-height: 27px;
+    text-transform: uppercase;
   }
 
   h3 {
     font-weight: normal;
     font-size: 16px;
-    text-transform: uppercase;
     line-height: 24px;
+    text-transform: uppercase;
   }
 }

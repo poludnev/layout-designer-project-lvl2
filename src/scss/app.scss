@@ -83,25 +83,30 @@ header {
     margin: auto;
 
     input {
-      border-radius: 3px;
-      height: 50px;
-      border-color: $light-gray;
-      background-color: rgba(255, 255, 255, 0);
-      color: $white;
       min-width: 270px;
-      padding-left: 20px;
+      height: 50px;
       margin-bottom: 1.5rem;
+      padding-left: 20px;
+
+      color: $white;
+
+      border-color: $light-gray;
+
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 3px;
     }
 
     button {
-      border-radius: 5px;
-      height: 60px;
       width: 100%;
-      border-color: $green;
-      background-color: $green;
-      color: $white;
+      height: 60px;
       padding: 20px 30px;
       margin-bottom: 0px;
+      color: $white;
+      background-color: $green;
+
+      border-color: $green;
+      border-radius: 5px;
+
       text-transform: uppercase;
     }
   }
@@ -109,15 +114,18 @@ header {
   button {
     min-width: 200px;
     height: 62px;
-    margin: 0px 24px 24px 0;
+    margin: 0 24px 24px 0;
+    padding: 20px 30px;
+
     color: $white;
     text-transform: uppercase;
+
     border-radius: 5px;
-    padding: 20px 30px;
 
     img {
       margin-right: 16px;
       width: 20px;
+
       filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
         brightness(106%) contrast(99%);
     }
@@ -134,6 +142,7 @@ header {
 
     .pricing-item {
       width: 370px;
+
       border-radius: 1rem;
       padding: 22px 1.5rem 66px;
       margin-bottom: 38px;
@@ -143,7 +152,7 @@ header {
       }
 
       .btn {
-        margin: 0px 0 64px;
+        margin: 0 0 64px;
       }
 
       .pricing-value {
@@ -158,8 +167,9 @@ header {
 
 #page-similar {
   max-width: 1240px;
-  margin-left: 0;
+
   margin-right: 0;
+  margin-left: 0;
 
   h3 {
     font-size: 18px;
@@ -183,13 +193,15 @@ header {
 
 #page-news {
   max-width: 1240px;
-  margin-left: 0;
+
   margin-right: 0;
+  margin-left: 0;
 
   .news-item {
-    margin-top: 65px;
     display: flex;
     flex-wrap: wrap;
+
+    margin-top: 65px;
 
     > img {
       width: 575px;
@@ -197,9 +209,9 @@ header {
 
     h3 {
       font-weight: normal;
-      text-transform: capitalize;
       font-size: 30px;
       line-height: 45px;
+      text-transform: capitalize;
     }
 
     p {
@@ -208,14 +220,17 @@ header {
     }
 
     .btn {
-      padding: 16px 30px;
-      height: 53px;
       width: 136px;
+      height: 53px;
+
+      padding: 16px 30px;
+
       border: 1px solid $light-gray;
     }
 
     .news-author span {
       margin-left: 16px;
+
       line-height: 16px;
     }
 
@@ -246,14 +261,16 @@ header {
 
 #page-app {
   max-width: 1240px;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 
   p {
     max-width: 580px;
-    text-align: left;
+
     margin-top: 16px;
     margin-bottom: 16px;
+
+    text-align: left;
   }
 
   img {
@@ -261,12 +278,15 @@ header {
   }
 
   .btn {
-    background-color: $red;
-    border: 1px solid $red;
-    border-radius: 32px;
     width: 131px;
     height: 53px;
     padding: 16px 40px;
+
+    background-color: $red;
+
+    border: 1px solid $red;
+    border-radius: 32px;
+
     text-transform: unset;
   }
 
@@ -277,19 +297,21 @@ header {
 
 footer {
   margin-top: 100px;
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   padding-top: 63px;
+
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 
   .container {
     text-align: left;
   }
 
   h2 {
+    margin-bottom: 15px;
+
     font-size: 18px;
     line-height: 27px;
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 15px;
   }
 
   .columns {
@@ -305,13 +327,15 @@ footer {
   }
 
   ul {
-    text-align: left;
     color: $grey;
+
+    text-align: left;
   }
 
   hr {
-    border: 1px solid $grey;
     margin-top: 72px;
+
+    border: 1px solid $grey;
   }
 
   .container:nth-child(3) {
@@ -326,12 +350,12 @@ footer {
 }
 
 #page-description-artist {
+  padding: 250px 0px;
+
   background-color: $bg-black;
   background-image: url('../images/Morten\ Harket.png');
   background-position: center;
   background-size: cover;
-
-  padding: 250px 0px;
 
   .container {
     text-align: left;
@@ -349,9 +373,11 @@ footer {
     // border-left-width: 2px;
 
     min-width: 200px;
-    margin-bottom: 1.5rem;
     margin-right: 24px;
     padding-left: 31px;
+
+    margin-bottom: 1.5rem;
+
     color: $white;
 
     border-radius: 3px;
@@ -366,15 +392,15 @@ footer {
   }
 
   form > button {
-    background-color: $green;
+    padding: 20px 30px;
 
     color: $white;
 
-    padding: 20px 30px;
-
-    border-radius: 5px;
+    background-color: $green;
 
     text-transform: uppercase;
+
+    border-radius: 5px;
   }
 }
 
@@ -396,9 +422,9 @@ footer {
   }
 
   .track-item {
+    display: flex;
     margin-top: 25px;
     margin-right: 50px;
-    display: flex;
     flex-basis: 400px;
     flex-grow: 1;
     justify-content: space-between;

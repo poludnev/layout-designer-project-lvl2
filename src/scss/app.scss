@@ -272,6 +272,76 @@ footer {
   }
 }
 
+#page-news {
+  max-width: 1240px;
+
+  margin-right: 0;
+  margin-left: 0;
+
+  .news-item {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 65px;
+
+    > img {
+      width: 575px;
+    }
+
+    h3 {
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 45px;
+      text-transform: capitalize;
+    }
+
+    p {
+      margin-top: 30px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      width: 136px;
+      height: 53px;
+
+      padding: 16px 30px;
+
+      border: 1px solid $light-gray;
+    }
+
+    .news-author span {
+      margin-left: 16px;
+
+      line-height: 16px;
+    }
+
+    .news-author {
+      display: flex;
+
+      margin-bottom: 48px;
+    }
+
+    > div {
+      max-width: 575px;
+
+      text-align: left;
+    }
+
+    > img:nth-child(odd) {
+      margin-right: 50px;
+    }
+  }
+
+  .news-item:nth-child(odd) {
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+  }
+
+  .news-item:nth-child(2) {
+    margin-top: 48px;
+  }
+}
+
 #page-discography {
   max-width: 1240px;
   margin-right: 0;
@@ -356,76 +426,6 @@ footer {
       width: 250px;
       margin-bottom: 18px;
     }
-  }
-}
-
-#page-news {
-  max-width: 1240px;
-
-  margin-right: 0;
-  margin-left: 0;
-
-  .news-item {
-    display: flex;
-    flex-wrap: wrap;
-
-    margin-top: 65px;
-
-    > img {
-      width: 575px;
-    }
-
-    h3 {
-      font-weight: normal;
-      font-size: 30px;
-      line-height: 45px;
-      text-transform: capitalize;
-    }
-
-    p {
-      margin-top: 30px;
-      margin-bottom: 24px;
-    }
-
-    .btn {
-      width: 136px;
-      height: 53px;
-
-      padding: 16px 30px;
-
-      border: 1px solid $light-gray;
-    }
-
-    .news-author span {
-      margin-left: 16px;
-
-      line-height: 16px;
-    }
-
-    .news-author {
-      display: flex;
-
-      margin-bottom: 48px;
-    }
-
-    > div {
-      max-width: 575px;
-
-      text-align: left;
-    }
-
-    > img:nth-child(odd) {
-      margin-right: 50px;
-    }
-  }
-
-  .news-item:nth-child(odd) {
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
-  }
-
-  .news-item:nth-child(2) {
-    margin-top: 48px;
   }
 }
 

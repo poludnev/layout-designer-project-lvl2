@@ -214,6 +214,10 @@ ul {
   margin-bottom: 32px;
 }
 
+.mb-23px {
+  margin-bottom: 23px;
+}
+
 .mb-48px {
   margin-bottom: 48px;
 }
@@ -606,11 +610,25 @@ footer .container:nth-child(3) a {
   margin-bottom: 18px;
 }
 
+#page-similar {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#page-similar h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
 #page-similar .artist {
   text-align: center;
-  margin: 0px 50px 25px 0px;
+  margin-right: 50px;
+  margin-top: 25px;
 }
 #page-similar .artist img {
+  display: block;
+  margin-bottom: 18px;
   width: 250px;
 }
 

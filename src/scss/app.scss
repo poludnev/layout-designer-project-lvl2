@@ -392,6 +392,15 @@ footer {
 }
 
 #page-similar {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+  h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
   // max-width: 1240px;
   // margin-left: 0;
   // margin-right: 0;
@@ -407,8 +416,11 @@ footer {
 
     // width: 250px;
     text-align: center;
-    margin: 0px 50px 25px 0px;
+    margin-right: 50px;
+    margin-top: 25px;
     img {
+      display: block;
+      margin-bottom: 18px;
       width: 250px;
     }
   }

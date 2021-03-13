@@ -218,6 +218,10 @@ ul {
   margin-bottom: 48px;
 }
 
+.mt-25px {
+  margin-top: 25px;
+}
+
 .mt-50px {
   margin-top: 50px;
 }
@@ -577,10 +581,13 @@ footer .container:nth-child(3) a {
   }
 
   #page-description .container {
-    padding-top: 50px;
+    padding-top: 0px;
   }
   #page-description .intro {
     margin-bottom: 16px;
+  }
+  #page-description .intro h1 {
+    margin-top: 50px;
   }
   #page-description form {
     width: 100%;

@@ -29,17 +29,17 @@ header {
   }
 
   ul {
-    margin: 0;
-    margin-left: 88px;
-
     display: flex;
     align-items: center;
+    margin: 0;
+    margin-left: 88px;
 
     list-style-type: none;
 
     li {
-      margin-left: 24px;
       display: inline;
+      margin-left: 24px;
+
       color: $light-gray;
 
       &.active {
@@ -53,11 +53,12 @@ header {
     height: 26px;
     padding: 5px 10px;
 
-    background-color: $dark;
     color: #757575;
 
-    border-radius: 50px;
+    background-color: $dark;
+
     border: 0 solid;
+    border-radius: 50px;
   }
 }
 
@@ -72,8 +73,8 @@ header {
 #page-description {
   padding: 200px 0;
 
-  background-size: cover;
   background-color: $bg-black;
+  background-size: cover;
   background-position: center;
 
   .intro {
@@ -363,7 +364,7 @@ footer {
 }
 
 #page-description-artist {
-  padding: 250px 0px;
+  padding: 250px 0;
 
   background-color: $bg-black;
   background-image: url('../images/Morten\ Harket.png');

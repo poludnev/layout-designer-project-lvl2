@@ -177,6 +177,26 @@ footer {
     }
   }
 
+  button {
+    min-width: 200px;
+    height: 62px;
+    margin: 0 24px 24px 0;
+    padding: 20px 30px;
+
+    color: $white;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+
+    img {
+      width: 20px;
+      margin-right: 16px;
+
+      filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
+        brightness(106%) contrast(99%);
+    }
+  }
+
   form {
     width: 570px;
     margin: auto;
@@ -208,26 +228,6 @@ footer {
       background-color: $green;
       border-color: $green;
       border-radius: 5px;
-    }
-  }
-
-  button {
-    min-width: 200px;
-    height: 62px;
-    margin: 0 24px 24px 0;
-    padding: 20px 30px;
-
-    color: $white;
-    text-transform: uppercase;
-
-    border-radius: 5px;
-
-    img {
-      width: 20px;
-      margin-right: 16px;
-
-      filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
-        brightness(106%) contrast(99%);
     }
   }
 }
@@ -299,6 +299,17 @@ footer {
   }
 }
 
+.news-item {
+  // display: flex;
+  // flex-wrap: wrap;
+
+  // margin-top: 65px;
+
+  > img {
+    width: 575px;
+  }
+}
+
 #page-discography {
   max-width: 1240px;
   margin-right: 0;
@@ -337,9 +348,9 @@ footer {
 
     margin-top: 65px;
 
-    > img {
-      width: 575px;
-    }
+    // > img {
+    //   width: 575px;
+    // }
 
     h3 {
       // font-weight: normal;

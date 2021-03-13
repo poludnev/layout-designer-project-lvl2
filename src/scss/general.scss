@@ -141,6 +141,11 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .flex-wrap-reverse {
   display: flex;
   flex-wrap: wrap-reverse;

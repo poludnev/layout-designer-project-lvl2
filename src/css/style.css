@@ -132,6 +132,11 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .flex-wrap-reverse {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -338,7 +343,7 @@ header input {
   text-transform: uppercase;
 }
 #page-description button {
-  width: 200px;
+  min-width: 200px;
   height: 62px;
   margin: 0px 24px 24px 0;
   color: #ffffff;

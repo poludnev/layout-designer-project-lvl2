@@ -405,7 +405,6 @@ footer {
   }
 
   header {
-    // line-height: 16px;
     .container {
       display: flex;
       flex-direction: column;
@@ -413,6 +412,7 @@ footer {
       align-items: flex-start;
       text-align: left;
       padding: 0 20px;
+
       input {
         width: 100%;
       }
@@ -424,6 +424,7 @@ footer {
         ul {
           display: inline-block;
           margin: 16px 0;
+
           li {
             display: block;
             margin-left: 0;
@@ -431,6 +432,7 @@ footer {
           }
         }
       }
+
       form {
         width: 100%;
       }
@@ -441,22 +443,28 @@ footer {
     .container {
       padding-top: 0px;
     }
+
     .intro {
       margin-bottom: 16px;
+
       h1 {
         margin-top: 50px;
       }
     }
+
     .artist {
       h1 {
         margin-top: 25px;
       }
     }
+
     form {
       width: 100%;
+
       input {
         width: 100%;
       }
+
       button {
         width: 100%;
       }
@@ -469,6 +477,7 @@ footer {
         width: 100%;
         margin-bottom: 50px;
         padding-top: 14px;
+
         h3 {
           margin-bottom: 200px;
         }
@@ -482,10 +491,12 @@ footer {
         width: 100%;
         margin-bottom: 50px;
       }
+
       h3 {
         font-size: 16px;
         line-height: 24px;
       }
+
       p {
         margin-top: 16px;
       }
@@ -495,20 +506,26 @@ footer {
   footer {
     .columns {
       column-count: unset;
+
       > div {
         max-width: 100%;
         margin-bottom: 31px;
       }
     }
+
     .off-1 {
       margin-bottom: 14px;
     }
+
     hr {
-      border: 1px solid $grey;
       margin-top: 69px;
+
+      border: 1px solid $grey;
     }
+
     .container:nth-child(3) {
       padding-bottom: 32px;
+
       a {
         display: block;
       }
@@ -518,19 +535,19 @@ footer {
   #page-similar {
     .artist {
       width: 137px;
+
       img {
         width: 137px;
       }
     }
   }
-}
-
-#page-discography {
-  .disk-items {
-    .disk-item {
-      width: 137px;
-      img {
+  #page-discography {
+    .disk-items {
+      .disk-item {
         width: 137px;
+        img {
+          width: 137px;
+        }
       }
     }
   }

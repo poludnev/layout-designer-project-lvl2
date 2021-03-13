@@ -272,6 +272,33 @@ footer {
   }
 }
 
+#page-similar {
+  max-width: 1240px;
+
+  margin-right: 0;
+  margin-left: 0;
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+  }
+
+  .artist {
+    margin-top: 25px;
+    margin-right: 50px;
+
+    text-align: center;
+
+    img {
+      display: block;
+      width: 250px;
+      margin-bottom: 18px;
+    }
+  }
+}
+
 #page-news {
   max-width: 1240px;
 
@@ -398,33 +425,6 @@ footer {
 
         margin-bottom: 40px;
       }
-    }
-  }
-}
-
-#page-similar {
-  max-width: 1240px;
-
-  margin-right: 0;
-  margin-left: 0;
-
-  h3 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    text-transform: capitalize;
-  }
-
-  .artist {
-    margin-top: 25px;
-    margin-right: 50px;
-
-    text-align: center;
-
-    img {
-      display: block;
-      width: 250px;
-      margin-bottom: 18px;
     }
   }
 }

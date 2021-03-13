@@ -555,6 +555,11 @@ footer .container:nth-child(3) a {
   margin-left: 0;
   margin-right: 0;
 }
+#page-popular-track h3 {
+  font-size: 12.8px;
+  line-height: 19.3px;
+  font-weight: 700;
+}
 #page-popular-track .track-items {
   display: flex;
   flex-wrap: wrap;
@@ -576,6 +581,19 @@ footer .container:nth-child(3) a {
   display: flex;
   align-items: center;
   text-align: left;
+}
+
+#page-discography {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#page-discography .disk-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+#page-discography .disk-item img {
+  margin-bottom: 18px;
 }
 
 @media (max-width: 414px) {

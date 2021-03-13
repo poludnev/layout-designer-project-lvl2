@@ -429,58 +429,58 @@ footer {
   }
 }
 
-#page-description-artist {
-  padding: 250px 0;
+// #page-description-artist {
+//   padding: 250px 0;
 
-  background-color: $bg-black;
-  background-image: url('../images/Morten\ Harket.png');
-  background-position: center;
-  background-size: cover;
+//   background-color: $bg-black;
+//   background-image: url('../images/Morten\ Harket.png');
+//   background-position: center;
+//   background-size: cover;
 
-  .container {
-    text-align: left;
-  }
+//   .container {
+//     text-align: left;
+//   }
 
-  form {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 570px;
-    margin: auto;
-  }
+//   form {
+//     display: flex;
+//     flex-wrap: wrap;
+//     max-width: 570px;
+//     margin: auto;
+//   }
 
-  form > input,
-  button {
-    min-width: 200px;
+//   form > input,
+//   button {
+//     min-width: 200px;
 
-    margin-right: 24px;
-    margin-bottom: 1.5rem;
-    padding-left: 31px;
+//     margin-right: 24px;
+//     margin-bottom: 1.5rem;
+//     padding-left: 31px;
 
-    color: $white;
+//     color: $white;
 
-    border-radius: 3px;
+//     border-radius: 3px;
 
-    img {
-      width: 20px;
-      margin-right: 16px;
+//     img {
+//       width: 20px;
+//       margin-right: 16px;
 
-      filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
-        brightness(106%) contrast(99%);
-    }
-  }
+//       filter: invert(90%) sepia(99%) saturate(33%) hue-rotate(195deg)
+//         brightness(106%) contrast(99%);
+//     }
+//   }
 
-  form > button {
-    padding: 20px 30px;
+//   form > button {
+//     padding: 20px 30px;
 
-    color: $white;
+//     color: $white;
 
-    text-transform: uppercase;
+//     text-transform: uppercase;
 
-    background-color: $green;
+//     background-color: $green;
 
-    border-radius: 5px;
-  }
-}
+//     border-radius: 5px;
+//   }
+// }
 
 @media (max-width: 414px) {
   .container {

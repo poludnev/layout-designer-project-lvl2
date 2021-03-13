@@ -70,6 +70,17 @@ header {
   background-image: url('../images/Morten\ Harket.png');
 }
 
+footer {
+  h2 {
+    margin-bottom: 15px;
+
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+
 #page-app {
   max-width: 1240px;
   margin-right: 0;
@@ -186,15 +197,6 @@ footer {
 
   .container {
     text-align: left;
-  }
-
-  h2 {
-    margin-bottom: 15px;
-
-    font-size: 18px;
-    line-height: 27px;
-    text-align: left;
-    text-transform: uppercase;
   }
 
   .columns {

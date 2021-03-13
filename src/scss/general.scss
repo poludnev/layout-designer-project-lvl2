@@ -20,12 +20,13 @@ body {
   position: relative;
 
   box-sizing: border-box;
-  color: $white;
   margin: auto;
 
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
+  color: $white;
+
   font-weight: 400px;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
 
   background-color: $bg-black;
@@ -36,11 +37,12 @@ body {
 
   overflow: hidden;
 
-  border: 0;
-
   width: 1px;
   height: 1px;
+
   padding: 0;
+
+  border: 0;
 
   white-space: nowrap;
 }
@@ -67,6 +69,7 @@ section {
 .container {
   max-width: 1200px;
   margin: auto;
+
   text-align: center;
 }
 
@@ -111,12 +114,18 @@ h3 {
   display: block;
   width: 100%;
   height: 66px;
+
   color: $white;
+
   background-color: rgba(255, 255, 255, 0);
-  border-radius: 5px;
+
   padding: 20px 30px;
-  border: 2px $light-grey solid;
+
   text-transform: uppercase;
+
+  border-radius: 5px;
+
+  border: 2px $light-grey solid;
 }
 
 %back-ground-image {

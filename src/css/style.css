@@ -736,6 +736,9 @@ footer .container:nth-child(3) a {
     width: 137px;
   }
 
+  #page-similar .artist {
+    width: 137px;
+  }
   #page-similar .artist img {
     display: block;
     margin-bottom: 18px;

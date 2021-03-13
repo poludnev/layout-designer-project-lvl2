@@ -557,7 +557,7 @@ footer .container:nth-child(3) a {
 }
 #page-popular-track h3 {
   font-size: 12.8px;
-  line-height: 19.3px;
+  line-height: 19.2px;
   font-weight: 700;
 }
 #page-popular-track .track-items {
@@ -588,12 +588,39 @@ footer .container:nth-child(3) a {
   margin-left: 0;
   margin-right: 0;
 }
-#page-discography .disk-item {
-  margin-right: 50px;
-  margin-bottom: 25px;
+#page-discography h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
-#page-discography .disk-item img {
+#page-discography .disk-items {
+  margin-top: 23px;
+}
+#page-discography .disk-items .disk-item {
+  margin-right: 50px;
+  margin-top: 25px;
+}
+#page-discography .disk-items .disk-item img {
   margin-bottom: 18px;
+}
+
+#page-similar {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+#page-similar .artist {
+  text-align: center;
+  margin: 0px 50px 25px 0px;
+}
+#page-similar .artist img {
+  width: 250px;
 }
 
 @media (max-width: 414px) {

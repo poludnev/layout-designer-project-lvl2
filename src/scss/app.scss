@@ -335,7 +335,7 @@ footer {
   margin-right: 0;
   h3 {
     font-size: 12.8px;
-    line-height: 19.3px;
+    line-height: 19.2px;
     font-weight: 700;
   }
   .track-items {
@@ -367,42 +367,51 @@ footer {
   max-width: 1240px;
   margin-left: 0;
   margin-right: 0;
-  .disk-item {
-    img {
-      margin-bottom: 18px;
-    }
-    margin-right: 50px;
-    margin-bottom: 25px;
+  h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+    text-transform: capitalize;
   }
+  .disk-items {
+    margin-top: 23px;
 
+    .disk-item {
+      img {
+        margin-bottom: 18px;
+      }
+      margin-right: 50px;
+      margin-top: 25px;
+    }
+  }
   // // #search {
   // //   max-height: 25px;
   // //   background-color: red;
   // // }
 }
 
-// #page-similar {
-//   max-width: 1240px;
-//   margin-left: 0;
-//   margin-right: 0;
-//   position: relative;
+#page-similar {
+  max-width: 1240px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
 
-//   max-width: 1200px;
-//   margin: auto;
-//   padding-top: 100px;
-//   margin-bottom: 100px;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
 
-//   .artist {
-//     // background-color: brown;
+  .artist {
+    // background-color: brown;
 
-//     // width: 250px;
-//     text-align: center;
-//     margin: 0px 50px 25px 0px;
-//     img {
-//       width: 250px;
-//     }
-//   }
-// }
+    // width: 250px;
+    text-align: center;
+    margin: 0px 50px 25px 0px;
+    img {
+      width: 250px;
+    }
+  }
+}
 
 //
 
